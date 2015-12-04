@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %} &ndash; {{ article.title }}{% endblock %}
+
+{% block content %}
+<main>
+  <article>
+      <h1>{{ article.title }}</h1>
+    <div class="content">
+      {{ article.content }}
+    </div>
+  </article>
+</main>
+{% endblock %}
+
+{% block additional_js %}
+  {% include "partial/jsonld_article.html" %}
+{% endblock %}

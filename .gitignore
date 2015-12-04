@@ -1,0 +1,6 @@
+_site/
+*~
+.DS_Store
+output/*
+*.py[cod]
+cache/
