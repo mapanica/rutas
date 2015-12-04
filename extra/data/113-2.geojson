@@ -40,8 +40,9 @@
 { "type": "Feature", "properties": { "name": "El Coto" }, "geometry": { "type": "Point", "coordinates": [ -86.371234646188014, 12.159781268633445 ] } },
 { "type": "Feature", "properties": { "name": "Colegio Nueva Vida" }, "geometry": { "type": "Point", "coordinates": [ -86.371821605394658, 12.158653795751436 ] } },
 { "type": "Feature", "properties": { "name": "Terminal" }, "geometry": { "type": "Point", "coordinates": [ -86.370527582227908, 12.156653680994635 ] } },
-{ "type": "Feature", "properties": { "name": "Vuelta de la Uno" }, "geometry": { "type": "Point", "coordinates": [ -86.358714017589506, 12.167489826918926 ] } },
-{ "type": "Feature", "properties": { "name": "Chilamate" }, "geometry": { "type": "Point", "coordinates": [ -86.336816235066166, 12.150575965686798 ] } },
-{ "type": "Feature", "properties": { "name": "Satelite de Asososca" }, "geometry": { "type": "Point", "coordinates": [ -86.335211843968722, 12.144513128978289 ] } }
+{ "type": "Feature", "properties": { "name": "Vuelta de la Uno" }, "geometry": { "type": "Point", "coordinates": [ -86.358668473004599, 12.167505106471143 ] } },
+{ "type": "Feature", "properties": { "name": "Chilamate" }, "geometry": { "type": "Point", "coordinates": [ -86.336504968820208, 12.149714810134956 ] } },
+{ "type": "Feature", "properties": { "name": "Satelite de Asososca" }, "geometry": { "type": "Point", "coordinates": [ -86.335211843968722, 12.144513128978289 ] } },
+{ "type": "Feature", "properties": { "name": "Dinsa" }, "geometry": { "type": "Point", "coordinates": [ -86.335917380792864, 12.146929603586129 ] } }
 ]
 }
