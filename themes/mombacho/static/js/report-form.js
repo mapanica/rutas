@@ -1,5 +1,13 @@
 $(document).ready(function (){
 
+  var url_params = get_params();
+
+  if (typeof url_params['message'] == 'string') {
+    modal.open({content: '<img src="/theme/img/loading.gif" alt="Cargando"/>'});
+    $('#modal-content').empty();
+    $('#modal-content').html('<div class="message">' + url_params['message'] + '</div>');
+  }
+
   // Search callback
   $('#report').bind('click',function(e){
 

@@ -8,6 +8,7 @@ if(isset($_POST['url']) && $_POST['url'] == ''){
   $body = "Un reporte sobre $_POST[ruta]
   De: $_POST[name]
   E-Mail: $_POST[email]
+  Telefono: $_POST[phone]
   Mensaje: $_POST[message]";
     // From:
     // Use the submitters email if they supplied one
@@ -21,7 +22,7 @@ if(isset($_POST['url']) && $_POST['url'] == ''){
     }
     // finally, send the message
     mail($ouremail, 'Reporte de rutas.mapanica.net', $body, $headers );
-    header('Location: ../../index.html?message="Gracias por su reporte"');
+    header('Location: ../../index.html?message=¡Muchas gracias por su reporte!');
   }
   else {
     header('Location: ../../index.html?message="Mensaje no enviado"');

@@ -1,5 +1,6 @@
 var map;
 var feature;
+var scrolled=0;
 
 function load_map(url_params) {
 
@@ -173,7 +174,7 @@ $(document).ready(function() {
   busDetailLayerGroup.addTo(map);
   if (typeof url_params.ruta !== 'undefined') {
     bus_number = url_params.ruta;
-    category = $(this).find(".ruta-" + url_params.ruta).parent().attr("class");
+    category = $(this).find(".ruta-" + url_params.ruta).attr("class").match(/\lines-\w+/i).pop();
     loadBusRoute(busDetailLayerGroup, bus_number, category);
   }
 
@@ -182,7 +183,6 @@ $(document).ready(function() {
 
     // Do not reload page
     e.preventDefault();
-    console.log(e);
 
     // Mark link as active
     $('a.bus-active').removeClass('bus-active');
@@ -194,7 +194,34 @@ $(document).ready(function() {
       uri = updateUrlParameter(window.location.href, 'ruta', this.text);
       window.history.pushState({path:uri},'',uri);
     }
-    console.log(this);
-    loadBusRoute(busDetailLayerGroup, this.text, $(this).parent().attr("class"));
+    loadBusRoute(busDetailLayerGroup, this.text, $(this).attr("class").match(/\lines-\w+/i));
   });
+
+
+  $("#bus-lines-control-top").on("click" ,function(){
+    scrolled=scrolled+240;
+    $("#bus-lines").animate({
+      scrollTop:  scrolled
+    });
+  });
+
+  $("#bus-lines-control-bottom").on("click" ,function(){
+    scrolled=scrolled-240;
+    $("#bus-lines").animate({
+      scrollTop:  scrolled
+    });
+  });
+
+  $('#bus-lines-toggle').click(function() {
+
+    if ($('#bus-lines-toggle').text() == '<') {
+        $('#bus-lines-toggle').text('>');
+    }
+    else {
+        $('#bus-lines-toggle').text('<');
+    }
+    $('#bus-lines').toggle();
+      return false;
+  });
+
 });
