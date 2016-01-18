@@ -48,7 +48,7 @@
 { "type": "Feature", "properties": { "name": "Ministerio de Hacienda y Crédito Público" }, "geometry": { "type": "Point", "coordinates": [ -86.285316897805927, 12.152314514859194 ] } },
 { "type": "Feature", "properties": { "name": "Guapollón" }, "geometry": { "type": "Point", "coordinates": [ -86.287762471335412, 12.152431576937596 ] } },
 { "type": "Feature", "properties": { "name": "Pulpería El Carmen" }, "geometry": { "type": "Point", "coordinates": [ -86.291287819836413, 12.152596324381546 ] } },
-{ "type": "Feature", "properties": { "name": "Blanca's Salon" }, "geometry": { "type": "Point", "coordinates": [ -86.292363103231494, 12.149815451137663 ] } },
+{ "type": "Feature", "properties": { "name": "Las Vegas" }, "geometry": { "type": "Point", "coordinates": [ -86.292363103231494, 12.149815451137663 ] } },
 { "type": "Feature", "properties": { "name": "Pulpería Cinthia" }, "geometry": { "type": "Point", "coordinates": [ -86.295108085245204, 12.150084617332226 ] } },
 { "type": "Feature", "properties": { "name": "Best Brand" }, "geometry": { "type": "Point", "coordinates": [ -86.297507575200598, 12.147542413001535 ] } },
 { "type": "Feature", "properties": { "name": "Accesa" }, "geometry": { "type": "Point", "coordinates": [ -86.296852883021543, 12.143326663182066 ] } },

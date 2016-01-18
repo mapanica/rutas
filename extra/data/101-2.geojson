@@ -34,7 +34,7 @@
 { "type": "Feature", "properties": { "name": "Distribuidora La Universal" }, "geometry": { "type": "Point", "coordinates": [ -86.236937589190504, 12.151406557499998 ] } },
 { "type": "Feature", "properties": { "name": "Lácteos Calibri" }, "geometry": { "type": "Point", "coordinates": [ -86.242726602375953, 12.152152226161183 ] } },
 { "type": "Feature", "properties": { "name": "Súper de los Militares" }, "geometry": { "type": "Point", "coordinates": [ -86.246073635293044, 12.152445188803839 ] } },
-{ "type": "Feature", "properties": { "name": "Agri" }, "geometry": { "type": "Point", "coordinates": [ -86.24915638385356, 12.15171102521777 ] } },
+{ "type": "Feature", "properties": { "name": "ULAM" }, "geometry": { "type": "Point", "coordinates": [ -86.24915638385356, 12.15171102521777 ] } },
 { "type": "Feature", "properties": { "name": "Hospital Solidaridad" }, "geometry": { "type": "Point", "coordinates": [ -86.2493990188118, 12.14862338850952 ] } },
 { "type": "Feature", "properties": { "name": "Profamilia" }, "geometry": { "type": "Point", "coordinates": [ -86.25153197862241, 12.14513700938998 ] } },
 { "type": "Feature", "properties": { "name": "Supermercado La Colonia" }, "geometry": { "type": "Point", "coordinates": [ -86.253635204197138, 12.145380185353805 ] } },

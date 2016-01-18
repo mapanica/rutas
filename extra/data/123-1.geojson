@@ -26,7 +26,7 @@
 { "type": "Feature", "properties": { "name": "Cine León" }, "geometry": { "type": "Point", "coordinates": [ -86.300957824543843, 12.150684246623113 ] } },
 { "type": "Feature", "properties": { "name": "Impresiones Universales" }, "geometry": { "type": "Point", "coordinates": [ -86.297489339400329, 12.150266403156275 ] } },
 { "type": "Feature", "properties": { "name": "Pulpería Cinthia" }, "geometry": { "type": "Point", "coordinates": [ -86.295108085245204, 12.150084617332226 ] } },
-{ "type": "Feature", "properties": { "name": "Blanca's Salon" }, "geometry": { "type": "Point", "coordinates": [ -86.292363103231494, 12.149815451137663 ] } },
+{ "type": "Feature", "properties": { "name": "Las Vegas" }, "geometry": { "type": "Point", "coordinates": [ -86.292363103231494, 12.149815451137663 ] } },
 { "type": "Feature", "properties": { "name": "Desarme El Rubio" }, "geometry": { "type": "Point", "coordinates": [ -86.290044192157069, 12.150160668808022 ] } },
 { "type": "Feature", "properties": { "name": "Agrosa" }, "geometry": { "type": "Point", "coordinates": [ -86.289965499738187, 12.152311265573465 ] } },
 { "type": "Feature", "properties": { "name": "Iglesia" }, "geometry": { "type": "Point", "coordinates": [ -86.289209297932018, 12.157635474364445 ] } },
