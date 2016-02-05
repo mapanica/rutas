@@ -24,7 +24,7 @@
 { "type": "Feature", "properties": { "name": "None" }, "geometry": { "type": "Point", "coordinates": [ -86.265832708787968, 12.127425579466815 ] } },
 { "type": "Feature", "properties": { "name": "Bancentro" }, "geometry": { "type": "Point", "coordinates": [ -86.265071476416196, 12.124907487141067 ] } },
 { "type": "Feature", "properties": { "name": "Ultranic" }, "geometry": { "type": "Point", "coordinates": [ -86.262138566845081, 12.120656423297856 ] } },
-{ "type": "Feature", "properties": { "name": "Colegio Teresiano" }, "geometry": { "type": "Point", "coordinates": [ -86.258628579535426, 12.116740715679274 ] } },
+{ "type": "Feature", "properties": { "name": "Colegio Teresiano" }, "geometry": { "type": "Point", "coordinates": [ -86.258565787297073, 12.116729385575873 ] } },
 { "type": "Feature", "properties": { "name": "El Quetzal" }, "geometry": { "type": "Point", "coordinates": [ -86.253970006303518, 12.114642969577202 ] } },
 { "type": "Feature", "properties": { "name": "Policía Distrito V" }, "geometry": { "type": "Point", "coordinates": [ -86.250015263096699, 12.117534700021451 ] } },
 { "type": "Feature", "properties": { "name": "Hospital Roberto Calderón" }, "geometry": { "type": "Point", "coordinates": [ -86.245913465677901, 12.120546197920071 ] } },

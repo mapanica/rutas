@@ -21,14 +21,15 @@
 
 {% block content %}
   {% include "partial/header.html" %}
-  {% include "partial/sidebar.html" %}
-  <main>
+  <main id="{{ page.slug }}">
     <article>
-      <h1 id="{{ page.slug }}">{{ page.title }}</h1>
+      <h1>{{ page.title }}</h1>
       <div class="content">
         {{ page.content }}
       </div>
     </article>
+    {% include "partial/social-links.html" %}
+
   </main>
 {% endblock %}
 

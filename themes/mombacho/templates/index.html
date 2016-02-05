@@ -34,16 +34,15 @@
 {% endblock %}
 
 {% block content %}
-  {% include "partial/header-with-search.html" %}
-  {% include "partial/sidebar.html" %}
+  {% include "partial/header.html" %}
   <div class="report-wrapper">
+    <!--
     <div style="height: 60px;">
-
       <a style="float:left;" href="http://support.mapanica.net"><img style="padding-right: 20px;" width="100" src="http://support.mapanica.net/img/transport_map.jpg" ></a>
       <p><strong><a href="http://support.mapanica.net">Support</a> the printing of Managua's crowd-sourced public transportation map<br />
       <a href="http://support.mapanica.net/index.es.html">Apoya</a> a la impresión del mapa colaborativo de transporte colectivo de Managua</strong></p>
-    </div>
-    <!-- <div style="clear:both;">¿Ves alguna parada o ruta que está mál? O ¿tiene otro nombre? Sólo seleciona una ruta y <a href="" id="report">reporta</a></div> -->
+    </div> -->
+    <div style="clear:both;">Si encuentras algún error en alguna parada o ruta, ayúdanos a mejorar, selecciona la ruta y <a href="" id="report">escríbenos</a>.</div>
   </div>
   <main id="map-wrapper">
     <!-- MAP -->
@@ -78,7 +77,7 @@
          <a href="?ruta=123" class="bus-line-link lines-northern ruta-123">123</a>
          <a href="?ruta=125" class="bus-line-link lines-western ruta-125">125</a>
          <a href="?ruta=133" class="bus-line-link lines-western ruta-133">133</a>
-         <a href="?ruta=125 (CS)" class="bus-line-link bus-line-link-double lines-western ruta-125CS">125 (CS)</a>
+         <a href="?ruta=125 (CS)" class="bus-line-link bus-line-link-double lines-ciudadsandino ruta-125CS">125 (CS)</a>
          <a href="?ruta=154" class="bus-line-link lines-western ruta-154">154</a>
          <a href="?ruta=158" class="bus-line-link lines-western ruta-158">158</a>
          <a href="?ruta=159" class="bus-line-link lines-eastern ruta-159">159</a>
@@ -97,10 +96,20 @@
          <a href="?ruta=262" class="bus-line-link lines-southern ruta-262">262</a>
          <a href="?ruta=266" class="bus-line-link lines-eastern ruta-266">266</a>
          <a href="?ruta=Esquipulas" class="bus-line-link bus-line-link-double lines-southern ruta-Esquipulas">Esquipulas</a>
+         <a href="?ruta=San Isidro" class="bus-line-link bus-line-link-double lines-southern ruta-SanIsidro">San Isidro</a>
          <a href="?ruta=Vanegas" class="bus-line-link bus-line-link-double lines-southern ruta-Vanegas">Vanegas</a>
        </div>
        <div class="bus-lines-control" id="bus-lines-control-bottom"><img src="/images/scroller-down.png" /></div>
      </div>
+
+      <div class="download-map">
+        <a href="/mapa">
+          <img src="/images/mapanica_bus_map_small.jpg" />
+          <center>¡Descarga y lleváte tu mapa!</center>
+        </a>
+      </div>
+     {% include "partial/social-links.html" %}
+
   </main>
   <!-- <footer></footer> -->
 {% endblock %}

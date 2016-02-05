@@ -1,0 +1,13 @@
+<nav>
+  <ul id="main-menu">
+    {% for title, link, short in MENUITEMS %}
+      {% set stripped_link = link|replace('/', '', 1)%}
+      {% if stripped_link in output_file %}
+        {% set link_state = 'class="active"' %}
+      {% else %}
+        {% set link_state = '' %}
+      {% endif %}
+      <li class="menu-item link-{{ short }}"><a {{link_state}} href="{{ link }}"><span>{{ title }}</span></a></li>
+    {% endfor %}
+  </ul>
+</nav>

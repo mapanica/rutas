@@ -5,16 +5,16 @@ var scrolled=0;
 function load_map(url_params) {
 
   var humanitarian = L.tileLayer('http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
-    attribution: 'Teselas © <a href="http://hot.openstreetmap.org/">Humanitarian OpenStreetMap Team</a>; Información geográfica © <a href="http://openstreetmap.org">OpenStreetMap</a>'
+    attribution: 'Geo datos © <a href="http://openstreetmap.org">OpenStreetMap</a>'
   });
   var osm = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© Colaboradores de <a href="http://openstreetmap.org">OpenStreetMap</a>'
   });http:
   var pub_transport = L.tileLayer('http://tile.memomaps.de/tilegen/{z}/{x}/{y}.png', {
-    attribution: 'Teselas © <a href="http://memomaps.de/">MeMoMaps</a>; Información geográfica © <a href="http://openstreetmap.org">OpenStreetMap</a>'
+    attribution: 'Geo datos © <a href="http://openstreetmap.org">OpenStreetMap</a>; Teselas © <a href="http://memomaps.de/">MeMoMaps</a>'
   });
   var mapbox = L.tileLayer('http://{s}.tiles.mapbox.com/v3/jaakkoh.map-4ch3dsvl/{z}/{x}/{y}.png', {
-    attribution: 'Teselas © <a href="http://mapbox.com/">Mapbox</a>; Información geográfica © <a href="http://openstreetmap.org">OpenStreetMap</a>'
+    attribution: 'Geo datos © <a href="http://openstreetmap.org">OpenStreetMap</a>; Teselas © <a href="http://mapbox.com/">Mapbox</a>'
   });
 
   var baseLayers = {
@@ -83,12 +83,13 @@ function loadBusRoute(busDetailLayerGroup, bus_number, category) {
 
   // Define colors for transport categories
   var transportCategories = {
-    'lines-principal': '#00ff00',
-    'lines-central': '#c69c6d',
-    'lines-eastern': '#BB5BDE',
-    'lines-western': '#00ffff',
-    'lines-northern': '#f15a24',
-    'lines-southern': '#0000ff',
+    'lines-principal': '#45B549',
+    'lines-central': '#A8611A',
+    'lines-eastern': '#D4135A',
+    'lines-western': '#00ADEE',
+    'lines-northern': '#F7921F',
+    'lines-southern': '#0055FF',
+    'lines-ciudadsandino': '#F27874',
 
   }
   var myStyle = {
