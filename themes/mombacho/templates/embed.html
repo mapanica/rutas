@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block meta_javascript %}
+<script src="/theme/js/jquery.js"></script>
+<script src="/theme/js/leaflet.js"></script>
+<script src="/theme/js/leaflet/leaflet-hash.js"></script>
+<script src="/theme/js/leaflet/ActiveLayers.js"></script>
+<script src="/theme/js/leaflet/leaflet.ajax.js"></script>
+<script src="/theme/js/leaflet/leaflet.label.js"></script>
+{% endblock %}
+
+{% block meta_css %}
+  <link rel="stylesheet" href="/theme/css/leaflet.css" type="text/css" />
+  <!--[if lte IE 8]>
+      <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.ie.css" />
+  <![endif]-->
+  <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/embed.css">
+{% endblock %}
+
+{% block content %}
+  <div id="map">
+    <div id="mapanica-logo">
+      <a href="http://rutas.mapanica.net" alt="Mapa de mapanica.net" target="_blank">
+        <img src="/images/mapanica-rutas.png" height="42" width="42" alt="Logotipo de OpenStreetMap Nicaragua"/><br />
+        <span>MapaNica</span>
+      </a>
+    </div>
+  </div>
+  <div id="bus-lines-wrapper">
+    <div class="bus-lines-control" id="bus-lines-control-top"><img src="/images/scroller-up.png" /></div>
+    <div id="bus-lines">
+      <a href="?ruta=6" class="bus-line-link lines-northern ruta-6">6</a>
+      <a href="?ruta=101" class="bus-line-link lines-northern ruta-101">101</a>
+      <a href="?ruta=102" class="bus-line-link lines-principal ruta-102">102</a>
+      <a href="?ruta=103" class="bus-line-link lines-principal ruta-103">103</a>
+      <a href="?ruta=104" class="bus-line-link lines-eastern ruta-104">104</a>
+      <a href="?ruta=105" class="bus-line-link lines-principal ruta-105">105</a>
+      <a href="?ruta=106" class="bus-line-link lines-southern ruta-106">106</a>
+      <a href="?ruta=107" class="bus-line-link lines-western ruta-107">107</a>
+      <a href="?ruta=108" class="bus-line-link lines-eastern ruta-108">108</a>
+      <a href="?ruta=109" class="bus-line-link lines-northern ruta-109">109</a>
+      <a href="?ruta=110" class="bus-line-link lines-principal ruta-110">110</a>
+      <a href="?ruta=111" class="bus-line-link lines-principal ruta-111">111</a>
+      <a href="?ruta=112" class="bus-line-link lines-northern ruta-112">112</a>
+      <a href="?ruta=113" class="bus-line-link lines-western ruta-113">113</a>
+      <a href="?ruta=114" class="bus-line-link lines-principal ruta-114">114</a>
+      <a href="?ruta=115" class="bus-line-link lines-western ruta-115">115</a>
+      <a href="?ruta=116" class="bus-line-link lines-central ruta-106">116</a>
+      <a href="?ruta=117" class="bus-line-link lines-principal ruta-117">117</a>
+      <a href="?ruta=118" class="bus-line-link lines-central ruta-118">118</a>
+      <a href="?ruta=119" class="bus-line-link lines-principal ruta-119">119</a>
+      <a href="?ruta=120" class="bus-line-link lines-principal ruta-120">120</a>
+      <a href="?ruta=123" class="bus-line-link lines-northern ruta-123">123</a>
+      <a href="?ruta=125" class="bus-line-link lines-western ruta-125">125</a>
+      <a href="?ruta=133" class="bus-line-link lines-western ruta-133">133</a>
+      <a href="?ruta=125 (CS)" class="bus-line-link bus-line-link-double lines-ciudadsandino ruta-125CS">125 (CS)</a>
+      <a href="?ruta=154" class="bus-line-link lines-western ruta-154">154</a>
+      <a href="?ruta=158" class="bus-line-link lines-western ruta-158">158</a>
+      <a href="?ruta=159" class="bus-line-link lines-eastern ruta-159">159</a>
+      <a href="?ruta=163" class="bus-line-link lines-eastern ruta-168">163</a>
+      <a href="?ruta=164" class="bus-line-link lines-southern ruta-164">164</a>
+      <a href="?ruta=165" class="bus-line-link lines-southern ruta-165">165</a>
+      <a href="?ruta=167" class="bus-line-link lines-eastern ruta-167">167</a>
+      <a href="?ruta=168" class="bus-line-link lines-principal ruta-168">168</a>
+      <a href="?ruta=169" class="bus-line-link lines-eastern ruta-169">169</a>
+      <a href="?ruta=170" class="bus-line-link lines-northern ruta-170">170</a>
+      <a href="?ruta=172" class="bus-line-link lines-western ruta-172">172</a>
+      <a href="?ruta=175" class="bus-line-link lines-central ruta-175">175</a>
+      <a href="?ruta=195" class="bus-line-link lines-principal ruta-195">195</a>
+      <a href="?ruta=210" class="bus-line-link lines-western ruta-210">210</a>
+      <a href="?ruta=261 (MR4)" class="bus-line-link bus-line-link-double lines-central ruta-MR4">261 (MR4)</a>
+      <a href="?ruta=262" class="bus-line-link lines-southern ruta-262">262</a>
+      <a href="?ruta=266" class="bus-line-link lines-eastern ruta-266">266</a>
+      <a href="?ruta=Esquipulas" class="bus-line-link bus-line-link-double lines-southern ruta-Esquipulas">Esquipulas</a>
+      <a href="?ruta=San Isidro" class="bus-line-link bus-line-link-double lines-southern ruta-SanIsidro">San Isidro</a>
+      <a href="?ruta=Vanegas" class="bus-line-link bus-line-link-double lines-southern ruta-Vanegas">Vanegas</a>
+    </div>
+    <div class="bus-lines-control" id="bus-lines-control-bottom"><img src="/images/scroller-down.png" /></div>
+  </div>
+  <!-- <footer></footer> -->
+{% endblock %}
+{% block additional_js %}
+  <!-- Map -->
+  <script src="theme/js/public-transport.js"></script>
+  {% include "partial/jsonld.html" %}
+{% endblock %}

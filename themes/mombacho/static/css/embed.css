@@ -1,0 +1,185 @@
+
+.leaflet-control-zoomslider-slider-body ,
+.leaflet-control-container .leaflet-top.leaflet-right {
+  display: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+#map {
+  height: 100%;
+  display: block;
+  z-index: 0;
+}
+
+
+#mapanica-logo {
+  position: absolute;
+  z-index: 2;
+  top: 10px;
+  left: 10px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 10px;
+  padding-top: 5px;
+}
+
+#mapanica-logo img {
+  width: 48px;
+}
+
+#mapanica-logo span {
+  font-size: 9px;
+  font-weight: bold;
+  background-color: #000;
+  padding: 2px 5px;
+
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  -moz-opacity:0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+}
+
+#mapanica-logo a span {
+  color: #fff;
+}
+
+#mapanica-logo a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.leaflet-control-container .leaflet-top.leaflet-left {
+
+  top: 80px;
+  position: absolute;
+}
+.leaflet-control-zoomslider-slider {
+  background: none;
+  height: 30px !important;
+}
+
+
+html {
+  height:100%;
+}
+
+body {
+  height:100%;
+  margin: 0;
+}
+
+
+#bus-lines-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 42px;
+  padding: 0;
+  z-index: 20;
+  overflow: hidden;
+  color: #fff;
+}
+
+
+#bus-lines {
+  position: absolute;
+  background: rgba(3, 3, 3, 0.75);
+  margin: 0;
+  padding: 1px 0;
+  width: 57px;
+  font-family: 'Montserrat', 'Impact', sans-serif;;
+  font-size: 0.75em;
+
+  float: right;
+  z-index: 10;
+  overflow-y: scroll;
+  top: 25px;
+  bottom: 25px;
+}
+
+#bus-lines-wrapper .bus-lines-control {
+  position: absolute;
+  z-index: 30;
+  font-size: 2em;
+  line-height: 1.6em;
+  font-weight: bold;
+  text-align: center;
+  color: #ddd;
+  cursor: pointer;
+  width: 42px;
+  height: 25px;
+  border: 1px solid #333;
+  background: rgba(3, 3, 3, 0.75);
+}
+
+#bus-lines-control-top {
+  top: 0;
+}
+
+#bus-lines-control-bottom {
+  bottom: 0;
+}
+
+#bus-lines-control-bottom  .bus-lines-control:hover {
+  background-color: #ff5555;
+  z-index: 30;
+}
+
+a.bus-line-link {
+  padding: 5px 0;
+  border-left: solid 1px #333;
+  border-bottom: solid 1px #333;
+  margin: 0;
+  background-color: #666;
+  color: #fff;
+  width: 40px;
+  display: inline-block;
+  text-align: center;
+  float: left;
+  text-decoration: none;
+}
+
+a.bus-line-link-double {
+  display:block;
+  word-wrap:break-word;
+}
+
+a.bus-line-link.bus-active {
+  background-color: #ff5555;
+}
+a.lines-western.bus-active,
+a.lines-western:hover {
+  background-color: #00ADEE;
+}
+a.lines-eastern.bus-active,
+a.lines-eastern:hover {
+  background-color: #D4135A;
+}
+a.lines-northern.bus-active,
+a.lines-northern:hover {
+  background-color: #F7921F;
+}
+a.lines-southern.bus-active,
+a.lines-southern:hover {
+  background-color: #0055FF;
+}
+a.lines-central.bus-active,
+a.lines-central:hover {
+  background-color: #A8611A;
+}
+a.lines-principal.bus-active,
+a.lines-principal:hover {
+  background-color: #45B549;
+}
+a.lines-ciudadsandino.bus-active,
+a.lines-ciudadsandino:hover {
+  background-color: #F27874;
+}

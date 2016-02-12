@@ -24,7 +24,7 @@ AUTHOR_SAVE_AS = False
 CATEGORY_SAVE_AS = False
 TAG_SAVE_AS = False
 ARCHIVES_SAVE_AS = False
-DIRECT_TEMPLATES = ('index')
+DIRECT_TEMPLATES = ('index', 'embed')
 
 CC_LICENSE = { 'name': 'Creative Commons Attribution-ShareAlike', 'version':'4.0', 'slug': 'by-sa' }
 
