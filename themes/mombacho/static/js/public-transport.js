@@ -16,12 +16,17 @@ function load_map(url_params) {
   var mapbox = L.tileLayer('http://{s}.tiles.mapbox.com/v3/jaakkoh.map-4ch3dsvl/{z}/{x}/{y}.png', {
     attribution: 'Geo datos © <a href="http://openstreetmap.org">OpenStreetMap</a>; Teselas © <a href="http://mapbox.com/">Mapbox</a>'
   });
+  var osmsweden = L.tileLayer('http://{s}.tile.openstreetmap.se/hydda/full/{z}/{x}/{y}.png', {
+    attribution: 'Geo datos © <a href="http://openstreetmap.org">OpenStreetMap</a>; Teselas © <a href="http://http://openstreetmap.se/">OSM Suecia</a>'
+  });
+
 
   var baseLayers = {
     "Transporte público": pub_transport,
     "Humanitarian": humanitarian,
     "OpenStreetMap": osm,
     "Mapbox": mapbox,
+    "OSM Sweden": osmsweden,
   };
 
   // Initialize map
@@ -29,7 +34,7 @@ function load_map(url_params) {
     center: [12.125,-86.25],
     zoom: 13,
     attributionControl: false,
-    layers: baseLayers[url_params.layers] || pub_transport
+    layers: baseLayers[url_params.layers] || osmsweden
   });
 
   // Adding hash for position in url
