@@ -1,5 +1,21 @@
 $(document).ready(function (){
 
+  $('#searchlink').on('click', function(e){
+    if($('#searchform').hasClass('open')) {
+      $('#searchform').removeClass('open');
+      $('#searchlink').removeClass('open');
+      $('#searchlink .fa-times').addClass('fa-search');
+      $('#searchlink .fa-times').removeClass('fa-times');
+      modal.close();
+    }
+    else {
+      $('#searchform').addClass('open');
+      $('#searchlink').addClass('open');
+      $('#searchlink .fa-search').addClass('fa-times');
+      $('#searchlink .fa-search').removeClass('fa-search');
+    }
+  });
+
   var search = function(){
     var inp = document.getElementById("search-string") + ", Managua, Nicaragua";
     $.getJSON('http://nominatim.openstreetmap.org/search?format=json&limit=5&q=' + inp.value, function(data) {

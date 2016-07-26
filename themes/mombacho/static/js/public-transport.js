@@ -34,7 +34,7 @@ function load_map(url_params) {
     center: [12.125,-86.25],
     zoom: 13,
     attributionControl: false,
-    layers: baseLayers[url_params.layers] || osmsweden
+    layers: baseLayers[url_params.layers] || pub_transport
   });
 
   // Adding hash for position in url
@@ -44,8 +44,8 @@ function load_map(url_params) {
   L.control.attribution({position: 'bottomleft'}).addTo(map);
 
   // Adding layer functionality
-  var layers = L.control.activeLayers(baseLayers);
-  layers.setPosition('bottomleft').addTo(map);
+  //var layers = L.control.activeLayers(baseLayers);
+  //layers.setPosition('bottomleft').addTo(map);
 
 }
 

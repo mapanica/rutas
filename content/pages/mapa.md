@@ -10,7 +10,10 @@ Lo queremos compartir contigo. Descarga y lleváte tu mapa:
 <ul>
 <li><a href="/archivos/mapanica-rutas-managua.pdf">PDF</a></li>
 <li><a href="/archivos/mapanica-rutas-managua.jpg">JPG</a></li>
-<li><a href="http://datos.mapanica.net" target="_blank">Datos geográficos</a></li>
+<li><a href="http://datos.mapanica.net" target="_blank">Datos geográficos (GeoJson)</a></li>
+<li><a href="/archivos/mapanica-rutas-managua.ai">Formato vectorial (AI)</a></li>
+<li><a href="/archivos/mapanica-rutas-managua.svg">Formato vectorial (SVG)</a></li>
+
 </ul>
 </div>
 
