@@ -145,7 +145,17 @@ function loadBusRoute(busDetailLayerGroup, bus_number, category) {
               layer.bindLabel(feature.properties.name, {noHide: false});
 
               // Create list of bus stops
-              $('.stop-overview .variant-one ul').append('<li>'+feature.properties.name+'</li>');
+              if (feature.properties.attributes.official_status == "IRTRAMMA:bus_stop" ||
+              feature.properties.attributes.official_status == "IRTRAMMA:bus_station") {
+                stopClass = "stop-official";
+              }
+              else if (feature.properties.attributes.official_status == "none") {
+                stopClass = "stop-popular";
+              }
+              else {
+                stopClass = "stop-undefined";
+              }
+              $('.stop-overview .variant-one ul').append('<li class="'+stopClass+'">'+feature.properties.name+'</li>');
             }
 
             // If it's the bus route
@@ -200,7 +210,18 @@ function loadBusRoute(busDetailLayerGroup, bus_number, category) {
               layer.bindLabel(feature.properties.name, {noHide: false});
 
               // Create list of bus stops
-              $('.stop-overview .variant-two ul').append('<li>'+feature.properties.name+'</li>');
+              // Create list of bus stops
+              if (feature.properties.attributes.official_status == "IRTRAMMA:bus_stop" ||
+              feature.properties.attributes.official_status == "IRTRAMMA:bus_station") {
+                stopClass = "stop-official";
+              }
+              else if (feature.properties.attributes.official_status == "none") {
+                stopClass = "stop-popular";
+              }
+              else {
+                stopClass = "stop-undefined";
+              }
+              $('.stop-overview .variant-two ul').append('<li class="'+stopClass+'">'+feature.properties.name+'</li>');
             }
         }});
         busDetailLayerGroup.addLayer(geojsonLayer);

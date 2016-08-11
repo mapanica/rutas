@@ -926,13 +926,26 @@ ul.social {
     }
 
     .stop-overview {
-      padding-bottom: 120px;
+      padding-bottom: 80px;
       padding-right: 45px;
 
       ul {
-        padding-left: 18px;
-        list-style-image: url('../img/bus-stop-official-small.png');
+        padding-left: 0;
+        list-style-type: none;
+        font-size: 1.2em;
 
+        li {
+          background: url('../img/bus-stop-unknown-small.png') 0 50% no-repeat no-repeat;
+          padding-left: 20px;
+        }
+        li.stop-official {
+          background: url('../img/bus-stop-official-small.png') 0 50% no-repeat no-repeat;
+          padding-left: 20px;
+        }
+        li.stop-popular {
+          background: url('../img/bus-stop-popular-small.png') 0 50% no-repeat no-repeat;
+          padding-left: 20px;
+        }
       }
     }
 
