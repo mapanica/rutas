@@ -8,26 +8,25 @@ var modal = (function(){
   // Open the modal
   method.open = function (settings) {
       $content.empty().append(settings.content);
+      if(!$("#modal").hasClass("expanded")){
+         $("#modal").addClass("expanded");
+      }
 
-      $modal.css({
-          height: settings.height || 'auto'
-      })
-      $modal.show();
   };
 
   // Close the modal
   method.close = function () {
-    $modal.hide();
+    if($("#modal").hasClass("expanded")){
+       $("#modal").removeClass("expanded");
+    }
     $content.empty();
-    $(window).unbind('resize.modal');
   };
 
   $modal = $('<div id="modal"></div>');
   $content = $('<div id="modal-content"></div>');
   $close = $('<a id="modal-close" href="#">close</a>');
 
-  $modal.hide();
-  $modal.append($content, $close);
+  $modal.append($content);
 
   $(document).ready(function(){
     $('body').append($modal);

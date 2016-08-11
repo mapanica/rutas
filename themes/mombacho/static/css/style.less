@@ -13,13 +13,13 @@
 @dark-grey: #242121;
 @black: #000000;
 
-@buses_east: #D4135A;
+@buses_east: #6d2fba;
 @buses_west: #00ADEE;
 @buses_north: #F7921F;
 @buses_south: #0055FF;
 @buses_central: #A8611A;
 @buses_principal: #45B549;
-@buses_ciudad_sandino: #F27874;
+@buses_ciudad_sandino: #0076a2;
 
 
 @sans: 'Open Sans', 'Verdana', sans-serif;
@@ -103,7 +103,7 @@ header {
   width:100%;
   position:fixed;
   top: 0;
-  z-index:10;
+  z-index: 30;
   height: 70px;
   background: rgba(3, 3, 3, 0.75);
 
@@ -535,6 +535,7 @@ ul.social {
   display: block;
   z-index: 0;
   top:0;
+  position: fixed;
 
   .leaflet-top.leaflet-left {
     margin-top: 130px;
@@ -559,10 +560,30 @@ ul.social {
   width: 100%;
 }
 
+#report {
+  display: block;
+  position: fixed;
+  left: 66px;
+  bottom: 22px;
+  z-index: 25;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0 1px 7px rgba(0,0,0,0.4);
+
+  span.fa {
+    display:block;
+    padding: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #444;
+
+  }
+}
+
 
 #searchlink {
   display: block;
-  position: absolute;
+  position: fixed;
   left: 20px;
   bottom: 22px;
   z-index: 50;
@@ -594,7 +615,7 @@ ul.social {
 }
 /** search field **/
 #searchform {
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 0;
   line-height: 40px;
@@ -604,7 +625,7 @@ ul.social {
   padding: 0 15px;
   cursor: default;
   background: rgba(3, 3, 3, 0.75);
-  z-index: 30;
+  z-index: 40;
   -webkit-transition:height 200ms ease-in;
   -moz-transition:height 200ms ease-in;
   -o-transition:height 200ms ease-in;
@@ -659,14 +680,19 @@ ul.social {
 
 #modal {
   position:absolute;
-  bottom: 67px;
+  bottom: 0px;
   left: 0px;
-  z-index: 20;
+  z-index: 40;
   width: 100% !important;
+  height: 0;
+  -webkit-transition:height 200ms ease-in;
+  -moz-transition:height 200ms ease-in;
+  -o-transition:height 200ms ease-in;
+  transition:height 200ms ease-in;
 
   #modal-content {
     background:#fff;
-    padding: 15px 20px 50px 20px;
+    height: 100%;
   }
 
   #modal-close {
@@ -681,38 +707,27 @@ ul.social {
   }
 }
 
+#modal.expanded {
+  height: auto;
+
+  #modal-content {
+    padding: 15px 20px 70px 20px;
+  }
+}
+
 .leaflet-left .leaflet-control {
     margin-left: 20px;
 }
 
-#bus-lines-toggle {
-  position: absolute;
-  border-radius: 3px 0 0 3px;
-  z-index: 10;
-  background: rgba(3, 3, 3, 0.75);
-  padding: 10px 10px  5px 10px;
-  width: 22px;
-  font-family: @boldsans;
-  font-size: 42px;
-  cursor: pointer;
-  right: 0;
-  top: 0;
-}
-
-#bus-lines-toggle:hover {
-  color: @white;
-  background: rgba(255, 80, 80, 0.75);
-
-}
 
 #bus-lines-wrapper {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   bottom: 0;
   width: 42px;
   padding: 0;
-  z-index: 20;
+  z-index: 40;
   overflow: hidden;
   color: @white;
 
@@ -853,20 +868,74 @@ ul.social {
   }
 }
 
-.report-wrapper {
+.info-wrapper {
   position: absolute;
+  background: rgba(3, 3, 3, 0.75);
   top: 70px;
-  z-index: 1;
+  z-index: 20;
   width: 100%;
   line-height: normal;
   display: block;
-  padding: ;
+  padding: 0;
   font-size: 12px;
   font-family: @sans;
+  height: 0px;
+  overflow: hidden;
+  -webkit-transition:height 200ms ease-in;
+  -moz-transition:height 200ms ease-in;
+  -o-transition:height 200ms ease-in;
+  transition:height 200ms ease-in;
 
-  div {
-    background-color: #fff;
-    padding: 3px 45px 3px 5px;
+
+  .info-box {
+    border-top: 2px solid grey;
+    height: 0px;
+    overflow: hidden;
+    color: white;
+    padding-left: 10px;
+
+
+    .info-header {
+      position: fixed;
+      left: 0;
+      width: 100%;
+      padding: 3px 45px 3px 10px;
+      margin-right: 175px;
+      background: rgba(3, 3, 3, 0.75);
+
+      #info-expander {
+        float: right;
+        margin-right: 70px;
+        margin-top: -31px;
+        cursor: pointer;
+        padding: 10px;
+
+      }
+    }
+
+    h3 {
+      margin: 0;
+      padding: 6px 15px 0 0;
+      float: left;
+      font-weight: bolder;
+    }
+    .official {
+      padding-top: 50px;
+      padding-right: 45px;
+
+    }
+
+    .stop-overview {
+      padding-bottom: 120px;
+      padding-right: 45px;
+
+      ul {
+        padding-left: 18px;
+        list-style-image: url('../img/bus-stop-official-small.png');
+
+      }
+    }
+
   }
 
   .message {
@@ -876,19 +945,22 @@ ul.social {
   }
 }
 
-#report {
-  border: none;
-  display: inline-block;
-  border-radius: 2px;
-  background-color: @light-grey;
-  padding: 1px 4px;
-  color: #f55;
-  line-height: normal;
+.info-wrapper.normal,  .info-wrapper.normal .info-box {
+  height: 43px;
 }
 
-#report:hover {
-  background-color: @light-red;
-  color: @white;
+.info-wrapper.expanded {
+  height: auto;
+  min-height: 43px;
+  width: 100%;
+  overflow:hidden;
+
+  .info-box {
+    overflow-y: scroll;
+    height: auto;
+    width: 100%;
+    padding-right: 17px;
+  }
 }
 
 //
@@ -906,7 +978,7 @@ ul.social {
       margin-top: 2px;
     }
   }
-  .report-wrapper {
+  .info-wrapper {
     top: 42px;
   }
 
@@ -941,6 +1013,7 @@ ul.social {
 }
 
 @media screen and (min-width: 768px) {
+
 
   header {
     height: 86px;
@@ -1035,6 +1108,14 @@ ul.social {
     }
   }
 
+  .info-header {
+    padding-left: 130px !important;
+
+    #info-expander {
+      margin-right: 200px !important;
+    }
+  }
+
   h1 {
     font-size: 2.4em
   }
@@ -1078,11 +1159,11 @@ ul.social {
     }
   }
 
-  .report-wrapper {
+  .info-wrapper {
     top: 86px;
     padding: 0;
 
-    div {
+    .info-box {
       padding-left: 130px;
     }
   }

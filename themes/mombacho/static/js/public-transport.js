@@ -90,13 +90,13 @@ function loadBusRoute(busDetailLayerGroup, bus_number, category) {
   var transportCategories = {
     'lines-principal': '#45B549',
     'lines-central': '#A8611A',
-    'lines-eastern': '#D4135A',
+    'lines-eastern': '#6d2fba',
     'lines-western': '#00ADEE',
     'lines-northern': '#F7921F',
     'lines-southern': '#0055FF',
-    'lines-ciudadsandino': '#F27874',
-
+    'lines-ciudadsandino': '#0076a2',
   }
+
   var myStyle = {
     color: transportCategories[category],
 
@@ -112,6 +112,7 @@ function loadBusRoute(busDetailLayerGroup, bus_number, category) {
     riseOnHover: true,
   };
 
+
   // Load data from file
   $.ajax({
     type: "GET",
@@ -120,18 +121,47 @@ function loadBusRoute(busDetailLayerGroup, bus_number, category) {
     async: true,
     cache: true,
     success: function (response) {
-        // Define content of popup
-        geojsonLayer = L.geoJson(response, {
+
+      // Clean out meta data
+      $(".stop-overview .variant-one h4").text();
+      $(".stop-overview .variant-two h4").text();
+      $(".stop-overview .variant-one ul").empty();
+
+      // Define bus stop maker
+      geojsonLayer = L.geoJson(response, {
           style: myStyle,
           pointToLayer: function (feature, latlng) {
             marker = L.circleMarker(latlng, geojsonMarkerOptions);
             return marker;
           },
+
+          // Loop through bus route elements
           onEachFeature: function (feature, layer) {
+
+            // If it's a bus stop
             if (feature.geometry.type == 'Point') {
+
+              // Define content of popup
               layer.bindLabel(feature.properties.name, {noHide: false});
+
+              // Create list of bus stops
+              $('.stop-overview .variant-one ul').append('<li>'+feature.properties.name+'</li>');
             }
-            //layer.bindPopup(feature.properties.name);
+
+            // If it's the bus route
+            else if (feature.geometry.type == 'LineString' || feature.geometry.type == 'MultiLineString') {
+
+              // Show and fill metadata in site
+              if(!$(".info-wrapper").hasClass("normal")){
+                 $(".info-wrapper").addClass("normal");
+              }
+              $(".info-wrapper .ref").text("Ruta " + feature.properties.attributes.ref);
+              $(".info-wrapper .from").text(feature.properties.attributes.from);
+              $(".info-wrapper .to").text(feature.properties.attributes.to);
+              $(".info-wrapper .operator").text("Operada por:  " + feature.properties.attributes.operator);
+              $(".stop-overview .variant-one h4").text(feature.properties.attributes.from + " -> " + feature.properties.attributes.to);
+              $(".stop-overview .variant-two h4").text(feature.properties.attributes.to + " -> " + feature.properties.attributes.from);
+            }
         }});
         busDetailLayerGroup.addLayer(geojsonLayer);
     },
@@ -148,18 +178,30 @@ function loadBusRoute(busDetailLayerGroup, bus_number, category) {
     async: true,
     cache: true,
     success: function (response) {
-        // Define content of popup
-        geojsonLayer = L.geoJson(response, {
+
+      // Clean out meta data
+      $(".stop-overview .variant-two ul").empty();
+
+      // Define bus stop maker
+      geojsonLayer = L.geoJson(response, {
           style: myStyle,
           pointToLayer: function (feature, latlng) {
             marker = L.circleMarker(latlng, geojsonMarkerOptions);
             return marker;
           },
+
+          // Loop through bus route elements
           onEachFeature: function (feature, layer) {
+
+            // If it's a bus stop
             if (feature.geometry.type == 'Point') {
+
+              // Define content of popup
               layer.bindLabel(feature.properties.name, {noHide: false});
+
+              // Create list of bus stops
+              $('.stop-overview .variant-two ul').append('<li>'+feature.properties.name+'</li>');
             }
-            //layer.bindPopup(feature.properties.name);
         }});
         busDetailLayerGroup.addLayer(geojsonLayer);
     },
@@ -184,6 +226,21 @@ $(document).ready(function() {
     loadBusRoute(busDetailLayerGroup, bus_number, category);
   }
 
+  $("#info-expander ").click (function(e) {
+    // Show and fill metadata in site
+    if($(".info-wrapper").hasClass("normal")){
+      $(".info-wrapper").removeClass("normal");
+      $(".info-wrapper").addClass("expanded");
+      $("#info-expander").removeClass("fa-chevron-down");
+      $("#info-expander").addClass("fa-chevron-up");
+    }
+    else if ($(".info-wrapper").hasClass("expanded")){
+      $(".info-wrapper").removeClass("expanded");
+      $(".info-wrapper").addClass("normal");
+      $("#info-expander").removeClass("fa-chevron-up");
+      $("#info-expander").addClass("fa-chevron-down");
+    }
+  });
 
   $(".bus-line-link").click (function(e) {
 
@@ -217,17 +274,4 @@ $(document).ready(function() {
       scrollTop:  scrolled
     });
   });
-
-  $('#bus-lines-toggle').click(function() {
-
-    if ($('#bus-lines-toggle').text() == '<') {
-        $('#bus-lines-toggle').text('>');
-    }
-    else {
-        $('#bus-lines-toggle').text('<');
-    }
-    $('#bus-lines').toggle();
-      return false;
-  });
-
 });

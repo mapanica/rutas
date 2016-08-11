@@ -14,6 +14,13 @@ $(document).ready(function (){
     // Avoiding reload of page after form submit
     e.preventDefault();
 
+    if(!$("#searchlink").hasClass("open")){
+       $("#searchlink").addClass("open");
+       $('#searchlink .fa-search').addClass('fa-times');
+       $('#searchlink .fa-search').removeClass('fa-search');
+       $('#report').hide();
+    }
+
     // Define modal
     modal.open({content: '<img src="/theme/img/loading.gif" alt="Cargando"/>'});
     $('#modal-content').html(

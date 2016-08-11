@@ -35,14 +35,31 @@
 
 {% block content %}
   {% include "partial/header.html" %}
-  <div class="report-wrapper">
-    <!--
-    <div style="height: 60px;">
-      <a style="float:left;" href="http://support.mapanica.net"><img style="padding-right: 20px;" width="100" src="http://support.mapanica.net/img/transport_map.jpg" ></a>
-      <p><strong><a href="http://support.mapanica.net">Support</a> the printing of Managua's crowd-sourced public transportation map<br />
-      <a href="http://support.mapanica.net/index.es.html">Apoya</a> a la impresión del mapa colaborativo de transporte colectivo de Managua</strong></p>
-    </div> -->
-    <div style="clear:both;">Si encuentras algún error en alguna parada o ruta, ayúdanos a mejorar, selecciona la ruta y <a href="" id="report">escríbenos</a>.</div>
+  <div class="info-wrapper">
+    <div class="info-box">
+      <div class="info-header">
+        <h3 class="ref"></h3>
+        <div class="destination">
+          <span class="from"></span><br />
+          <span class="to"></span>
+        </div>
+        <span id="info-expander" class="fa fa-chevron-down"></span>
+      </div>
+
+      <div class="official">
+        <span class="operator"></span><br />
+      </div>
+      <div class="stop-overview">
+        <div class="variant-one">
+          <h4>Bar</h4>
+          <ul></ul>
+        </div>
+        <div class="variant-two">
+          <h4>Foo</h4>
+          <ul></ul>
+        </div>
+      </div>
+    </div>
   </div>
   <main id="map-wrapper">
     <!-- MAP -->
@@ -108,8 +125,9 @@
           <center>¡Descarga y lleváte tu mapa!</center>
         </a>
       </div>
-     {% include "partial/search.html" %}
-     {% include "partial/social-links.html" %}
+      {% include "partial/report.html" %}
+      {% include "partial/search.html" %}
+ {% include "partial/social-links.html" %}
 
   </main>
   <!-- <footer></footer> -->

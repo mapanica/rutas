@@ -1,12 +1,14 @@
 $(document).ready(function (){
 
   $('#searchlink').on('click', function(e){
-    if($('#searchform').hasClass('open')) {
+    if($('#searchlink').hasClass('open')) {
       $('#searchform').removeClass('open');
       $('#searchlink').removeClass('open');
       $('#searchlink .fa-times').addClass('fa-search');
       $('#searchlink .fa-times').removeClass('fa-times');
       modal.close();
+      $('#report').show();
+
     }
     else {
       $('#searchform').addClass('open');
