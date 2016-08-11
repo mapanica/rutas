@@ -210,7 +210,6 @@ function loadBusRoute(busDetailLayerGroup, bus_number, category) {
               layer.bindLabel(feature.properties.name, {noHide: false});
 
               // Create list of bus stops
-              // Create list of bus stops
               if (feature.properties.attributes.official_status == "IRTRAMMA:bus_stop" ||
               feature.properties.attributes.official_status == "IRTRAMMA:bus_station") {
                 stopClass = "stop-official";
@@ -221,6 +220,11 @@ function loadBusRoute(busDetailLayerGroup, bus_number, category) {
               else {
                 stopClass = "stop-undefined";
               }
+
+              if (feature.properties.name === '') {
+                feature.properties.name = '<span class="stop-unknown">Nombre desconocido</span>';
+              }
+
               $('.stop-overview .variant-two ul').append('<li class="'+stopClass+'">'+feature.properties.name+'</li>');
             }
         }});
