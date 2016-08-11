@@ -82,12 +82,48 @@ function updateUrlParameter(uri, key, value) {
 }
 
 
+function toggleExtendedBusInfo() {
+  if($(".info-wrapper").hasClass("normal")){
+    openExtendedBusInfo();
+  }
+  else if ($(".info-wrapper").hasClass("expanded")){
+    closeExtendedBusInfo();
+  }
+}
+
+//
+function openExtendedBusInfo() {
+  $(".info-wrapper").removeClass("normal");
+  $(".info-wrapper").addClass("expanded");
+  $("#info-expander").removeClass("fa-chevron-down");
+  $("#info-expander").addClass("fa-chevron-up");
+}
+
+
+
+//
+function closeExtendedBusInfo() {
+
+  $(".info-wrapper").removeClass("expanded");
+  $(".info-wrapper").addClass("normal");
+  $("#info-expander").removeClass("fa-chevron-up");
+  $("#info-expander").addClass("fa-chevron-down");
+}
+
+function showBusInfo() {
+
+  // Show and fill metadata in site
+  if(!$(".info-wrapper").hasClass("normal")){
+     $(".info-wrapper").addClass("normal");
+  }
+}
+
+
 
 //
 function zoomToNode(lat, lng) {
 
-    $(".info-wrapper").removeClass("expanded");
-    $(".info-wrapper").addClass("normal");
+    closeExtendedBusInfo();
 
     // define geographical bounds
     var bounds = [[lng+0.0001, lat+0.0001], [lng-0.0001, lat-0.0001]];
@@ -177,10 +213,7 @@ function loadBusRoute(busDetailLayerGroup, bus_number, category) {
             // If it's the bus route
             else if (feature.geometry.type == 'LineString' || feature.geometry.type == 'MultiLineString') {
 
-              // Show and fill metadata in site
-              if(!$(".info-wrapper").hasClass("normal")){
-                 $(".info-wrapper").addClass("normal");
-              }
+              showBusInfo();
               $(".info-wrapper .ref").text("Ruta " + feature.properties.attributes.ref);
               $(".info-wrapper .from").text(feature.properties.attributes.from);
               $(".info-wrapper .to").text(feature.properties.attributes.to);
@@ -256,8 +289,8 @@ $(document).ready(function() {
   // Obtain parameters from url
   var url_params = get_params();
 
+  // Load maps (with predefined route if given)
   load_map(url_params);
-
   var busDetailLayerGroup = new L.LayerGroup();
   busDetailLayerGroup.addTo(map);
   if (typeof url_params.ruta !== 'undefined') {
@@ -266,22 +299,13 @@ $(document).ready(function() {
     loadBusRoute(busDetailLayerGroup, bus_number, category);
   }
 
+  // Show or hide extended bus info
   $("#info-expander ").click (function(e) {
-    // Show and fill metadata in site
-    if($(".info-wrapper").hasClass("normal")){
-      $(".info-wrapper").removeClass("normal");
-      $(".info-wrapper").addClass("expanded");
-      $("#info-expander").removeClass("fa-chevron-down");
-      $("#info-expander").addClass("fa-chevron-up");
-    }
-    else if ($(".info-wrapper").hasClass("expanded")){
-      $(".info-wrapper").removeClass("expanded");
-      $(".info-wrapper").addClass("normal");
-      $("#info-expander").removeClass("fa-chevron-up");
-      $("#info-expander").addClass("fa-chevron-down");
-    }
+    toggleExtendedBusInfo();
+
   });
 
+  // Switch highligted bus route
   $(".bus-line-link").click (function(e) {
 
     // Do not reload page
@@ -301,6 +325,7 @@ $(document).ready(function() {
   });
 
 
+  // Allow scrolling through bus route navigation by buttons
   $("#bus-lines-control-top").on("click" ,function(){
     scrolled=scrolled+240;
     $("#bus-lines").animate({
