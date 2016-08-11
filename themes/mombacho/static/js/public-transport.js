@@ -81,6 +81,22 @@ function updateUrlParameter(uri, key, value) {
     return uri + hash;  // finally append the hash as well
 }
 
+
+
+//
+function zoomToNode(lat, lng) {
+
+    $(".info-wrapper").removeClass("expanded");
+    $(".info-wrapper").addClass("normal");
+
+    // define geographical bounds
+    var bounds = [[lng+0.0001, lat+0.0001], [lng-0.0001, lat-0.0001]];
+    map.fitBounds(bounds);
+    map.setZoom(18);
+}
+
+
+
 function loadBusRoute(busDetailLayerGroup, bus_number, category) {
 
   // Clear old bus line
@@ -155,7 +171,7 @@ function loadBusRoute(busDetailLayerGroup, bus_number, category) {
               else {
                 stopClass = "stop-undefined";
               }
-              $('.stop-overview .variant-one ul').append('<li class="'+stopClass+'">'+feature.properties.name+'</li>');
+              $('.stop-overview .variant-one ul').append('<li class="'+stopClass+'"><a href="#" onclick="zoomToNode('+feature.geometry.coordinates[0]+', '+feature.geometry.coordinates[1]+');return false;">'+feature.properties.name+'</a></li>');
             }
 
             // If it's the bus route
@@ -224,8 +240,7 @@ function loadBusRoute(busDetailLayerGroup, bus_number, category) {
               if (feature.properties.name === '') {
                 feature.properties.name = '<span class="stop-unknown">Nombre desconocido</span>';
               }
-
-              $('.stop-overview .variant-two ul').append('<li class="'+stopClass+'">'+feature.properties.name+'</li>');
+              $('.stop-overview .variant-two ul').append('<li class="'+stopClass+'"><a href="#" onclick="zoomToNode('+feature.geometry.coordinates[0]+', '+feature.geometry.coordinates[1]+');return false;">'+feature.properties.name+'</a></li>');
             }
         }});
         busDetailLayerGroup.addLayer(geojsonLayer);
