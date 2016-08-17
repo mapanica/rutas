@@ -23,18 +23,18 @@
 { "type": "Feature", "properties": { "name": "El Cruce de Reyes", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.349145792003753, 12.153590515080289 ] } },
 { "type": "Feature", "properties": { "name": "Villa Nueva", "attributes": { "official_status": "unset" } }, "geometry": { "type": "Point", "coordinates": [ -86.352453478711425, 12.155038017075539 ] } },
 { "type": "Feature", "properties": { "name": "Dispensario Villa Soberana", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.352318911081852, 12.157391431431476 ] } },
-{ "type": "Feature", "properties": { "name": "Casa del Adulto Mayor", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.351848014209921, 12.158697967417048 ] } },
-{ "type": "Feature", "properties": { "name": "ALKE", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.350055785386573, 12.159785483804653 ] } },
+{ "type": "Feature", "properties": { "name": "Casa del Adulto Mayor Zona 8", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.351848014209921, 12.158697967417048 ] } },
+{ "type": "Feature", "properties": { "name": "ALKE Ciudad Sandino", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.350055785386573, 12.159785483804653 ] } },
 { "type": "Feature", "properties": { "name": "15 de Julio", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.348373690017056, 12.160624389361692 ] } },
 { "type": "Feature", "properties": { "name": "Toño Negro", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.346859399942616, 12.161707155837053 ] } },
-{ "type": "Feature", "properties": { "name": "El Molino", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.347745048981224, 12.163368355164899 ] } },
+{ "type": "Feature", "properties": { "name": "El Molino Zona 8", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.347745048981224, 12.163368355164899 ] } },
 { "type": "Feature", "properties": { "name": "Plaza Padre Miguel", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.348888334843323, 12.165362711485948 ] } },
 { "type": "Feature", "properties": { "name": "Pinar del Río", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.35020104296801, 12.167915722154641 ] } },
 { "type": "Feature", "properties": { "name": "El Gallo Más Gallo", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.35187837726653, 12.167729557723211 ] } },
 { "type": "Feature", "properties": { "name": "Farmacia Nefi", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.353363202599638, 12.167000880783974 ] } },
 { "type": "Feature", "properties": { "name": "Iglesia San Francisco", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.35469657197585, 12.166354220038475 ] } },
-{ "type": "Feature", "properties": { "name": "Palí", "attributes": { "official_status": "unset" } }, "geometry": { "type": "Point", "coordinates": [ -86.355958165960871, 12.165812232117922 ] } },
-{ "type": "Feature", "properties": { "name": "Alcaldía de Ciudad Sandino", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.357500213977588, 12.165637218608079 ] } },
-{ "type": "Feature", "properties": { "name": "Mercadito", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.357793424086324, 12.165328288307951 ] } }
+{ "type": "Feature", "properties": { "name": "Palí CIudad Sandino", "attributes": { "official_status": "unset" } }, "geometry": { "type": "Point", "coordinates": [ -86.355958165960871, 12.165812232117922 ] } },
+{ "type": "Feature", "properties": { "name": "Alcaldía de Ciudad Sandino", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.357500213977588, 12.165637218608079 ] } },
+{ "type": "Feature", "properties": { "name": "Mercadito de Ciudad Sandino", "attributes": { "official_status": "IRTRAMMA:bus_station" } }, "geometry": { "type": "Point", "coordinates": [ -86.357793424086324, 12.165328288307951 ] } }
 ]
 }

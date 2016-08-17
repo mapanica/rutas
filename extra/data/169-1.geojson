@@ -5,7 +5,7 @@
 { "type": "Feature", "properties": { "name": "Zona Franca Las Mercedes", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.157735645872478, 12.148903621186879 ] } },
 { "type": "Feature", "properties": { "name": "UNA", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.162133168682828, 12.147075824361551 ] } },
 { "type": "Feature", "properties": { "name": "Pulpería Ruiz", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.165489903405003, 12.145543268568066 ] } },
-{ "type": "Feature", "properties": { "name": "Aeropuerto", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.169468092640727, 12.145359108355979 ] } },
+{ "type": "Feature", "properties": { "name": "Aeropuerto", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.169468092640727, 12.145359108355979 ] } },
 { "type": "Feature", "properties": { "name": "Hotel Las Mercedes", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.172637798120732, 12.145707405530981 ] } },
 { "type": "Feature", "properties": { "name": "MAGFOR", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.176198630075461, 12.146072563804573 ] } },
 { "type": "Feature", "properties": { "name": "Entrada a Las Mercedes", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.190031607472548, 12.14762048506563 ] } },
@@ -16,12 +16,12 @@
 { "type": "Feature", "properties": { "name": "Pista El Mayoreo", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.197262776015137, 12.136963217049686 ] } },
 { "type": "Feature", "properties": { "name": "Parque Concepción de María", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.197866084559948, 12.133912120021037 ] } },
 { "type": "Feature", "properties": { "name": "Mercado Mayoreo", "attributes": { "official_status": "IRTRAMMA:bus_station" } }, "geometry": { "type": "Point", "coordinates": [ -86.194396880764202, 12.134956176843788 ] } },
-{ "type": "Feature", "properties": { "name": "Mercado Mayoreo", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.194659637984813, 12.134983226713848 ] } },
+{ "type": "Feature", "properties": { "name": "Mercado Mayoreo", "attributes": { "official_status": "IRTRAMMA:bus_station" } }, "geometry": { "type": "Point", "coordinates": [ -86.194659637984813, 12.134983226713848 ] } },
 { "type": "Feature", "properties": { "name": "Semaforos Mayoreo", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.199186877522195, 12.133896487241444 ] } },
-{ "type": "Feature", "properties": { "name": "Pulpería Guadalupe", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.201559687513665, 12.130299079231442 ] } },
+{ "type": "Feature", "properties": { "name": "Entrada Norte a Laureles Norte", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.201559687513665, 12.130299079231442 ] } },
 { "type": "Feature", "properties": { "name": "Predio Mayoreo", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.203204323135836, 12.127748781670775 ] } },
 { "type": "Feature", "properties": { "name": "Palí La Sabana", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.204824614413795, 12.126123193572269 ] } },
-{ "type": "Feature", "properties": { "name": "El Madroño", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.206495121516141, 12.126747819659903 ] } },
+{ "type": "Feature", "properties": { "name": "El Madroño", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.206495121516141, 12.126747819659903 ] } },
 { "type": "Feature", "properties": { "name": "Colegio Inmaculada Concepción", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.209643177597812, 12.12747019544654 ] } },
 { "type": "Feature", "properties": { "name": "Farmacia Sophya", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.211951219057312, 12.127812631625053 ] } },
 { "type": "Feature", "properties": { "name": "Semáforo Iván Montenegro", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.21503118284042, 12.127684053434679 ] } },
@@ -39,6 +39,6 @@
 { "type": "Feature", "properties": { "name": "Farmacia Schick", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.233827262350772, 12.111661707085663 ] } },
 { "type": "Feature", "properties": { "name": "Miscelánea Kathin", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.233645263674205, 12.108183276578734 ] } },
 { "type": "Feature", "properties": { "name": "Farmacia Eva", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.233363282506517, 12.105726749916876 ] } },
-{ "type": "Feature", "properties": { "name": "Terminal Ruta 169", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.230703370950238, 12.105615200865895 ] } }
+{ "type": "Feature", "properties": { "name": "Terminal 169", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.230703370950238, 12.105615200865895 ] } }
 ]
 }

@@ -14,7 +14,7 @@
 { "type": "Feature", "properties": { "name": "El Poste Blanco", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.236038734917202, 12.08143940310938 ] } },
 { "type": "Feature", "properties": { "name": "La Estancia", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.239332048580309, 12.08439306928681 ] } },
 { "type": "Feature", "properties": { "name": "Iglesia de Santo Domingo", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.240528065549597, 12.085509963854605 ] } },
-{ "type": "Feature", "properties": { "name": "El Cruce", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.242418749728103, 12.087875059456264 ] } },
+{ "type": "Feature", "properties": { "name": "El Cruce Santo Domingo", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.242418749728103, 12.087875059456264 ] } },
 { "type": "Feature", "properties": { "name": "Las Calderas", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.245006526567053, 12.090342115173561 ] } },
 { "type": "Feature", "properties": { "name": "Notre Dame", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.246422810443988, 12.094090966825725 ] } },
 { "type": "Feature", "properties": { "name": "Viejo Santo Domingo", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.248152516523575, 12.097006020822853 ] } },

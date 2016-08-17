@@ -13,12 +13,17 @@ function load_map(url_params) {
   var pub_transport = L.tileLayer('http://tile.memomaps.de/tilegen/{z}/{x}/{y}.png', {
     attribution: 'Geo datos © <a href="http://openstreetmap.org">OpenStreetMap</a>; Teselas © <a href="http://memomaps.de/">MeMoMaps</a>'
   });
+  var new_transport = L.tileLayer('http://{s}.tile.thunderforest.com/transport/{z}/{x}/{y}.png', {
+    attribution: 'Geo datos © <a href="http://openstreetmap.org">OpenStreetMap</a>; Teselas © <a href="http://thunderforest.com/">Gravitystorm</a>'
+  });
   var mapbox = L.tileLayer('http://{s}.tiles.mapbox.com/v3/jaakkoh.map-4ch3dsvl/{z}/{x}/{y}.png', {
     attribution: 'Geo datos © <a href="http://openstreetmap.org">OpenStreetMap</a>; Teselas © <a href="http://mapbox.com/">Mapbox</a>'
   });
   var osmsweden = L.tileLayer('http://{s}.tile.openstreetmap.se/hydda/full/{z}/{x}/{y}.png', {
     attribution: 'Geo datos © <a href="http://openstreetmap.org">OpenStreetMap</a>; Teselas © <a href="http://http://openstreetmap.se/">OSM Suecia</a>'
   });
+
+
 
 
   var baseLayers = {
@@ -34,7 +39,7 @@ function load_map(url_params) {
     center: [12.125,-86.25],
     zoom: 13,
     attributionControl: false,
-    layers: baseLayers[url_params.layers] || pub_transport
+    layers: baseLayers[url_params.layers] || new_transport
   });
 
   // Adding hash for position in url
@@ -197,15 +202,20 @@ function loadBusRoute(busDetailLayerGroup, bus_number, category) {
               layer.bindLabel(feature.properties.name, {noHide: false});
 
               // Create list of bus stops
-              if (feature.properties.attributes.official_status == "IRTRAMMA:bus_stop" ||
-              feature.properties.attributes.official_status == "IRTRAMMA:bus_station") {
+              if (feature.properties.attributes.official_status == "IRTRAMMA:bus_stop") {
                 stopClass = "stop-official";
+              }
+              else if (feature.properties.attributes.official_status == "IRTRAMMA:bus_station") {
+                stopClass = "stop-station";
               }
               else if (feature.properties.attributes.official_status == "none") {
                 stopClass = "stop-popular";
               }
               else {
                 stopClass = "stop-undefined";
+              }
+              if (feature.properties.name === '') {
+                feature.properties.name = '<span class="stop-unknown">Nombre desconocido</span>';
               }
               $('.stop-overview .variant-one ul').append('<li class="'+stopClass+'"><a href="#" onclick="zoomToNode('+feature.geometry.coordinates[0]+', '+feature.geometry.coordinates[1]+');return false;">'+feature.properties.name+'</a></li>');
             }
@@ -259,9 +269,11 @@ function loadBusRoute(busDetailLayerGroup, bus_number, category) {
               layer.bindLabel(feature.properties.name, {noHide: false});
 
               // Create list of bus stops
-              if (feature.properties.attributes.official_status == "IRTRAMMA:bus_stop" ||
-              feature.properties.attributes.official_status == "IRTRAMMA:bus_station") {
+              if (feature.properties.attributes.official_status == "IRTRAMMA:bus_stop") {
                 stopClass = "stop-official";
+              }
+              else if (feature.properties.attributes.official_status == "IRTRAMMA:bus_station") {
+                stopClass = "stop-station";
               }
               else if (feature.properties.attributes.official_status == "none") {
                 stopClass = "stop-popular";

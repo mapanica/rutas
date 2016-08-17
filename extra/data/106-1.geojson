@@ -5,7 +5,7 @@
 { "type": "Feature", "properties": { "name": "Ferretería 35 Avenida", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.305019377437944, 12.143829528605462 ] } },
 { "type": "Feature", "properties": { "name": "ENACAL", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.307544990859256, 12.140262114372124 ] } },
 { "type": "Feature", "properties": { "name": "Asososca", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.310153339118216, 12.132123390350284 ] } },
-{ "type": "Feature", "properties": { "name": "Las Piedrecitas", "attributes": { "official_status": "unset" } }, "geometry": { "type": "Point", "coordinates": [ -86.311377563187406, 12.1286953754369 ] } },
+{ "type": "Feature", "properties": { "name": "Hospital Vélez Paiz", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.311377563187406, 12.1286953754369 ] } },
 { "type": "Feature", "properties": { "name": "7 Sur", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.31205219796577, 12.122833694533098 ] } },
 { "type": "Feature", "properties": { "name": "Banco Central", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.310328780093201, 12.122638013117417 ] } },
 { "type": "Feature", "properties": { "name": "Centro Comercial Nejapa", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.304284645367062, 12.124176409459478 ] } },
@@ -17,8 +17,7 @@
 { "type": "Feature", "properties": { "name": "Farmacia San Lorenzo", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.273974948691688, 12.121258665852618 ] } },
 { "type": "Feature", "properties": { "name": "Radio Universidad", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.273226382565454, 12.116854104516971 ] } },
 { "type": "Feature", "properties": { "name": "UNICIT", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.271969819146008, 12.111957173528481 ] } },
-{ "type": "Feature", "properties": { "name": "UNAN Oeste", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.27236921012134, 12.106370307980903 ] } },
-{ "type": "Feature", "properties": { "name": "", "attributes": { "official_status": "IRTRAMMA:bus_station" } }, "geometry": { "type": "Point", "coordinates": [ -86.195423924628528, 12.159988865736194 ] } },
+{ "type": "Feature", "properties": { "name": "UNAN Oeste", "attributes": { "official_status": "unset" } }, "geometry": { "type": "Point", "coordinates": [ -86.27236921012134, 12.106370307980903 ] } },
 { "type": "Feature", "properties": { "name": "UNAN Sur", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.269565568119589, 12.10361521509523 ] } },
 { "type": "Feature", "properties": { "name": "Porta", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.266320493987237, 12.102587724269499 ] } },
 { "type": "Feature", "properties": { "name": "Club Terraza", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.262630843620784, 12.103027074138446 ] } },
@@ -31,7 +30,7 @@
 { "type": "Feature", "properties": { "name": "Alesio Blandón", "attributes": { "official_status": "unset" } }, "geometry": { "type": "Point", "coordinates": [ -86.238402202429725, 12.122884283601055 ] } },
 { "type": "Feature", "properties": { "name": "La Fuente", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.235500374567451, 12.120682947644916 ] } },
 { "type": "Feature", "properties": { "name": "SERFOSA", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.234214526069749, 12.124279255804197 ] } },
-{ "type": "Feature", "properties": { "name": "Colegio 14 de Septiembre", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.23333094315629, 12.125284969763017 ] } },
+{ "type": "Feature", "properties": { "name": "Colegio 14 de Septiembre", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.23333094315629, 12.125284969763017 ] } },
 { "type": "Feature", "properties": { "name": "Cafetín Nareli", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.231976822697007, 12.125084898770274 ] } },
 { "type": "Feature", "properties": { "name": "Edmundo Matamoros", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.231678851517273, 12.12290957813142 ] } },
 { "type": "Feature", "properties": { "name": "Iglesia Inmaculada Concepción", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.231318088099158, 12.121011603408562 ] } },
@@ -39,9 +38,9 @@
 { "type": "Feature", "properties": { "name": "Primero de Mayo", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.22535884416736, 12.120928078157998 ] } },
 { "type": "Feature", "properties": { "name": "Iglesia Madre del Divino Amor", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.2213760735237, 12.120685319026805 ] } },
 { "type": "Feature", "properties": { "name": "Villa Flor Norte", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.218855849994114, 12.123415819547546 ] } },
-{ "type": "Feature", "properties": { "name": "Iglesia Mormona", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.218587792713308, 12.124396505858456 ] } },
+{ "type": "Feature", "properties": { "name": "Iglesia Mormona", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.218587792713308, 12.124396505858456 ] } },
 { "type": "Feature", "properties": { "name": "Colegio Villa Venezuela Oeste", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.215519237534295, 12.124175706836999 ] } },
-{ "type": "Feature", "properties": { "name": "Semáforo Iván Montenegro", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.214910000108617, 12.127691079566894 ] } },
+{ "type": "Feature", "properties": { "name": "Semáforo Iván Montenegro", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.214910000108617, 12.127691079566894 ] } },
 { "type": "Feature", "properties": { "name": "Mercado Iván Montenegro Sureste", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.214177244331353, 12.127880697240355 ] } },
 { "type": "Feature", "properties": { "name": "Farmacia Sophya", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.211977449863596, 12.127671582049519 ] } },
 { "type": "Feature", "properties": { "name": "Colegio Inmaculada Concepción", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.209618833253614, 12.127306310728468 ] } },
@@ -56,6 +55,7 @@
 { "type": "Feature", "properties": { "name": "Policía Distrito VI", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.195131792498145, 12.147032616789424 ] } },
 { "type": "Feature", "properties": { "name": "Subasta", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.194186674987733, 12.147689950741206 ] } },
 { "type": "Feature", "properties": { "name": "Bertha Díaz", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.194163498453406, 12.149161020481078 ] } },
-{ "type": "Feature", "properties": { "name": "Café Soluble", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.194782347852623, 12.154940276031205 ] } }
+{ "type": "Feature", "properties": { "name": "Café Soluble", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.194782347852623, 12.154940276031205 ] } },
+{ "type": "Feature", "properties": { "name": "Terminal 106", "attributes": { "official_status": "IRTRAMMA:bus_station" } }, "geometry": { "type": "Point", "coordinates": [ -86.195423924628528, 12.159988865736194 ] } }
 ]
 }

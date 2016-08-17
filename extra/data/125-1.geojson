@@ -16,7 +16,7 @@
 { "type": "Feature", "properties": { "name": "Satelite de Asososca", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.335211843968722, 12.144513128978289 ] } },
 { "type": "Feature", "properties": { "name": "KM 9", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.332486445228227, 12.139543725282032 ] } },
 { "type": "Feature", "properties": { "name": "Las Piedrecitas", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.312225213489512, 12.130556057376399 ] } },
-{ "type": "Feature", "properties": { "name": "Las Piedrecitas", "attributes": { "official_status": "unset" } }, "geometry": { "type": "Point", "coordinates": [ -86.311377563187406, 12.1286953754369 ] } },
+{ "type": "Feature", "properties": { "name": "Hospital Vélez Paiz", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.311377563187406, 12.1286953754369 ] } },
 { "type": "Feature", "properties": { "name": "7 Sur", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.31205219796577, 12.122833694533098 ] } },
 { "type": "Feature", "properties": { "name": "Banco Central", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.310328780093201, 12.122638013117417 ] } },
 { "type": "Feature", "properties": { "name": "Centro Comercial Nejapa", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.304284645367062, 12.124176409459478 ] } },
@@ -29,10 +29,10 @@
 { "type": "Feature", "properties": { "name": "Ruta Maya", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.286459824341904, 12.148227848057891 ] } },
 { "type": "Feature", "properties": { "name": "Lubricantes San José", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.2800595076056, 12.150751867299018 ] } },
 { "type": "Feature", "properties": { "name": "Movimiento María Elena Cuadra", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.276700077937605, 12.150435191621813 ] } },
-{ "type": "Feature", "properties": { "name": "Banco Central", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.272057764212306, 12.150622070713728 ] } },
-{ "type": "Feature", "properties": { "name": "Pulpería Romero", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.266373404757459, 12.149660274287752 ] } },
+{ "type": "Feature", "properties": { "name": "Parque Luis Alfonso Velásquez", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.272057764212306, 12.150622070713728 ] } },
+{ "type": "Feature", "properties": { "name": "Sector Este Dupla Sur", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.266373404757459, 12.149660274287752 ] } },
 { "type": "Feature", "properties": { "name": "El Novillo", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.265033118353571, 12.149394093526897 ] } },
-{ "type": "Feature", "properties": { "name": "Lubricentro", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.265753387548372, 12.146871817816104 ] } },
+{ "type": "Feature", "properties": { "name": "Barrio 19 de Julio", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.265753387548372, 12.146871817816104 ] } },
 { "type": "Feature", "properties": { "name": "El Panal", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.26336261125121, 12.145440693892446 ] } }
 ]
 }

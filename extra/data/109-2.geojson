@@ -15,15 +15,15 @@
 { "type": "Feature", "properties": { "name": "Sport Gym La Fuente", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.239291265066427, 12.118380501539571 ] } },
 { "type": "Feature", "properties": { "name": "Tecnológico Central", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.243350751835365, 12.121593995885229 ] } },
 { "type": "Feature", "properties": { "name": "Mercado Huembes Sureste", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.243050534867407, 12.122791361312604 ] } },
-{ "type": "Feature", "properties": { "name": "Parque Don Bosco (Mercado Huembes)", "attributes": { "official_status": "IRTRAMMA:bus_station" } }, "geometry": { "type": "Point", "coordinates": [ -86.241174942385697, 12.126226653956174 ] } },
+{ "type": "Feature", "properties": { "name": "Parque Don Bosco (Mercado Huembes)", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.241174942385697, 12.126226653956174 ] } },
 { "type": "Feature", "properties": { "name": "Escuela de Manejo", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.244772605267073, 12.12898458735447 ] } },
 { "type": "Feature", "properties": { "name": "Colegio República de Colombia", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.245306923198058, 12.129701863173544 ] } },
 { "type": "Feature", "properties": { "name": "Parque 10 de Junio", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.244589887938275, 12.132360606086694 ] } },
 { "type": "Feature", "properties": { "name": "Video Club", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.244175045940068, 12.135050148783131 ] } },
 { "type": "Feature", "properties": { "name": "Farmacia Cáceres", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.246053872356811, 12.135888781005972 ] } },
 { "type": "Feature", "properties": { "name": "El Dorado", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.249894080364868, 12.136006289425787 ] } },
-{ "type": "Feature", "properties": { "name": "El Dorado", "attributes": { "official_status": "IRTRAMMA:bus_station" } }, "geometry": { "type": "Point", "coordinates": [ -86.250608241015755, 12.136243326058137 ] } },
-{ "type": "Feature", "properties": { "name": "Ferretería Universal", "attributes": { "official_status": "IRTRAMMA:bus_station" } }, "geometry": { "type": "Point", "coordinates": [ -86.253597205460608, 12.136815497719732 ] } },
+{ "type": "Feature", "properties": { "name": "Semáforo El Dorado", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.250608241015755, 12.136243326058137 ] } },
+{ "type": "Feature", "properties": { "name": "Ferretería Universal", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.253597205460608, 12.136815497719732 ] } },
 { "type": "Feature", "properties": { "name": "Comedor Apostólico", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.253471620983888, 12.137548121559064 ] } },
 { "type": "Feature", "properties": { "name": "Los Paisas", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.253768244690718, 12.138578288090288 ] } },
 { "type": "Feature", "properties": { "name": "PMS Construcciones", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.256633690783985, 12.139094160268025 ] } },
@@ -35,9 +35,9 @@
 { "type": "Feature", "properties": { "name": "Asamblea", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.273874696705988, 12.152192447070671 ] } },
 { "type": "Feature", "properties": { "name": "Inss Sucursal", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.274387275407108, 12.156566390782569 ] } },
 { "type": "Feature", "properties": { "name": "Parque San Sebastián", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.27757791163323, 12.156951907700217 ] } },
-{ "type": "Feature", "properties": { "name": "Santa Ana", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.281908240460325, 12.157270595409125 ] } },
+{ "type": "Feature", "properties": { "name": "Santa Ana", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.281908240460325, 12.157270595409125 ] } },
 { "type": "Feature", "properties": { "name": "Santa Ana", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.282168572229679, 12.157047979482929 ] } },
-{ "type": "Feature", "properties": { "name": "MITRAB", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.28248109611701, 12.154086686948038 ] } },
+{ "type": "Feature", "properties": { "name": "MITRAB", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.28248109611701, 12.154086686948038 ] } },
 { "type": "Feature", "properties": { "name": "MTI", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.283061677285147, 12.152208869143331 ] } },
 { "type": "Feature", "properties": { "name": "Ministerio de Hacienda y Crédito Público", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.285316897805927, 12.152314514859194 ] } },
 { "type": "Feature", "properties": { "name": "Delicias del Volga", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.287762471335412, 12.152431576937596 ] } },
@@ -48,6 +48,6 @@
 { "type": "Feature", "properties": { "name": "Colonia Linda Vista", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.304360193682456, 12.157521488164535 ] } },
 { "type": "Feature", "properties": { "name": "Centro Comercial Linda Vista", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.305971771302168, 12.152491381325374 ] } },
 { "type": "Feature", "properties": { "name": "Manuel Olivares", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.309127283400684, 12.151698818413758 ] } },
-{ "type": "Feature", "properties": { "name": "Lenín Fonseca", "attributes": { "official_status": "IRTRAMMA:bus_station" } }, "geometry": { "type": "Point", "coordinates": [ -86.310708318300726, 12.148866912567156 ] } }
+{ "type": "Feature", "properties": { "name": "Hospital Lenín Fonseca", "attributes": { "official_status": "IRTRAMMA:bus_station" } }, "geometry": { "type": "Point", "coordinates": [ -86.310708318300726, 12.148866912567156 ] } }
 ]
 }
