@@ -15,7 +15,7 @@
 { "type": "Feature", "properties": { "name": "Vuelta de la Uno", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.358668473004599, 12.167505106471143 ] } },
 { "type": "Feature", "properties": { "name": "Ciber Extreme", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.358354421981247, 12.167395954248347 ] } },
 { "type": "Feature", "properties": { "name": "Alcaldía de Ciudad Sandino", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.357086000800095, 12.165573026468966 ] } },
-{ "type": "Feature", "properties": { "name": "Palí CIudad Sandino", "attributes": { "official_status": "unset" } }, "geometry": { "type": "Point", "coordinates": [ -86.35565660152001, 12.165778248068575 ] } },
+{ "type": "Feature", "properties": { "name": "Palí CIudad Sandino", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.35565660152001, 12.165778248068575 ] } },
 { "type": "Feature", "properties": { "name": "Iglesia San Francisco", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.354605213311459, 12.166243223250371 ] } },
 { "type": "Feature", "properties": { "name": "Farmacia Nefi", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.353203122815998, 12.166932473916413 ] } },
 { "type": "Feature", "properties": { "name": "Pinar del Río", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.350302103437471, 12.167889817206191 ] } },

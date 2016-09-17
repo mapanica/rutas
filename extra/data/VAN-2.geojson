@@ -18,7 +18,7 @@
 { "type": "Feature", "properties": { "name": "Instituto de Desarrollo Rural", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.238676727580554, 12.095208874949659 ] } },
 { "type": "Feature", "properties": { "name": "Primera entrada a Las Colinas", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.241527710797769, 12.098472714791752 ] } },
 { "type": "Feature", "properties": { "name": "Plaza Familiar", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.244998711224071, 12.102245870573077 ] } },
-{ "type": "Feature", "properties": { "name": "Galerías Santo Domingo", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.247549387641797, 12.10499263333854 ] } },
+{ "type": "Feature", "properties": { "name": "Galerías Santo Domingo Este", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.247549387641797, 12.10499263333854 ] } },
 { "type": "Feature", "properties": { "name": "Movistar", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.25080901448176, 12.10865695991742 ] } },
 { "type": "Feature", "properties": { "name": "El Minsterio", "attributes": { "official_status": "unset" } }, "geometry": { "type": "Point", "coordinates": [ -86.254533968638896, 12.112761887550946 ] } },
 { "type": "Feature", "properties": { "name": "Colegio Teresiano", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.259290188742185, 12.117878466403157 ] } },

@@ -23,7 +23,7 @@
 { "type": "Feature", "properties": { "name": "Calle 8", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.348630428525254, 12.143313753421539 ] } },
 { "type": "Feature", "properties": { "name": "Calle 10", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.348227893446449, 12.142229858233247 ] } },
 { "type": "Feature", "properties": { "name": "Calle 12", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.347848175575848, 12.141190484493761 ] } },
-{ "type": "Feature", "properties": { "name": "Terminal 125", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.347764542422894, 12.139991533085325 ] } },
+{ "type": "Feature", "properties": { "name": "Terminal 125", "attributes": { "official_status": "IRTRAMMA:bus_station" } }, "geometry": { "type": "Point", "coordinates": [ -86.347764542422894, 12.139991533085325 ] } },
 { "type": "Feature", "properties": { "name": "Blanca 2", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.347696629787407, 12.138892694473444 ] } },
 { "type": "Feature", "properties": { "name": "Vuela Rey de Reyes", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.34604274151782, 12.13648036247962 ] } },
 { "type": "Feature", "properties": { "name": "Calle del Barrio Nuevo", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.345932248737881, 12.135627768097308 ] } },

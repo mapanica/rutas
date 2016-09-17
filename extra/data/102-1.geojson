@@ -34,7 +34,7 @@
 { "type": "Feature", "properties": { "name": "Rotonda Cristo Rey", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.258043686453945, 12.134447410432323 ] } },
 { "type": "Feature", "properties": { "name": "Plaza El Sol", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.261493576471068, 12.131039273982861 ] } },
 { "type": "Feature", "properties": { "name": "Catedral de Managua", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.265120883756836, 12.129621678033317 ] } },
-{ "type": "Feature", "properties": { "name": "UCA", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.271601779374095, 12.126810264622815 ] } },
+{ "type": "Feature", "properties": { "name": "UCA", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.271601779374095, 12.126810264622815 ] } },
 { "type": "Feature", "properties": { "name": "Barrio Argentina", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.274846134854229, 12.126679578101442 ] } },
 { "type": "Feature", "properties": { "name": "Vivero", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.274780018849327, 12.130850185509628 ] } },
 { "type": "Feature", "properties": { "name": "Mabale", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.276801318070113, 12.136117211003224 ] } },

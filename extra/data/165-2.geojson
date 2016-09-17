@@ -20,7 +20,7 @@
 { "type": "Feature", "properties": { "name": "Arboretum", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.27463530025706, 12.147988450953715 ] } },
 { "type": "Feature", "properties": { "name": "Plaza Inter", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.273874786537519, 12.145336889685634 ] } },
 { "type": "Feature", "properties": { "name": "El Redentor", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.267135176118416, 12.144169396944424 ] } },
-{ "type": "Feature", "properties": { "name": "Funeraria La Católica y La Auxiliadora", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.261567417987436, 12.144194425991003 ] } },
+{ "type": "Feature", "properties": { "name": "Gancho de Camino", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.261590414858702, 12.14423201346704 ] } },
 { "type": "Feature", "properties": { "name": "Autoservicios Mayorga", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.256719030735965, 12.142630062147836 ] } },
 { "type": "Feature", "properties": { "name": "Club de billares", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.256800867258363, 12.140778071111077 ] } },
 { "type": "Feature", "properties": { "name": "PMS Construcciones", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.256691721951341, 12.139006425182654 ] } },
@@ -50,6 +50,6 @@
 { "type": "Feature", "properties": { "name": "Iglesia Adventista", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.233390142133516, 12.103366379630383 ] } },
 { "type": "Feature", "properties": { "name": "Embajada de España", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.232410439484653, 12.098739561230182 ] } },
 { "type": "Feature", "properties": { "name": "Saint Dominic School", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.229786550371259, 12.098720149434405 ] } },
-{ "type": "Feature", "properties": { "name": "Terminal 165", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.227062948261349, 12.098859281912398 ] } }
+{ "type": "Feature", "properties": { "name": "Terminal 165", "attributes": { "official_status": "IRTRAMMA:bus_station" } }, "geometry": { "type": "Point", "coordinates": [ -86.227062948261349, 12.098859281912398 ] } }
 ]
 }

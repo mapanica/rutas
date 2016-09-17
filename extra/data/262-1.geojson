@@ -43,7 +43,7 @@
 { "type": "Feature", "properties": { "name": "Profamilia", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.25153197862241, 12.14513700938998 ] } },
 { "type": "Feature", "properties": { "name": "Semáforos de Ciudad Jardines", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.253635204197138, 12.145380185353805 ] } },
 { "type": "Feature", "properties": { "name": "Boutique Inter Fashion", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.256144108954132, 12.144383065887364 ] } },
-{ "type": "Feature", "properties": { "name": "Policía Nacional Distrito IV", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.260856581103113, 12.145000272212004 ] } },
+{ "type": "Feature", "properties": { "name": "Gancho de Camino", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.260856581103113, 12.145000272212004 ] } },
 { "type": "Feature", "properties": { "name": "El Panal", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.263352190793924, 12.145596400126792 ] } },
 { "type": "Feature", "properties": { "name": "Barrio 19 de Julio", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.26558863652528, 12.147001089308583 ] } },
 { "type": "Feature", "properties": { "name": "El Novillo", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.264938705417208, 12.149379778948585 ] } },

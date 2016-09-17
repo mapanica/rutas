@@ -38,7 +38,7 @@
 { "type": "Feature", "properties": { "name": "Profamilia", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.25153197862241, 12.14513700938998 ] } },
 { "type": "Feature", "properties": { "name": "Semáforos de Ciudad Jardines", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.253635204197138, 12.145380185353805 ] } },
 { "type": "Feature", "properties": { "name": "Boutique Inter Fashion", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.256144108954132, 12.144383065887364 ] } },
-{ "type": "Feature", "properties": { "name": "Policía Nacional Distrito IV", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.260856581103113, 12.145000272212004 ] } },
+{ "type": "Feature", "properties": { "name": "Gancho de Camino", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.260856581103113, 12.145000272212004 ] } },
 { "type": "Feature", "properties": { "name": "El Redentor", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.266723388392165, 12.144218401180773 ] } },
 { "type": "Feature", "properties": { "name": "Plaza Inter", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.273691709882613, 12.14550691076804 ] } },
 { "type": "Feature", "properties": { "name": "Cabrera", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.277968319455724, 12.14620227478793 ] } },
@@ -53,6 +53,6 @@
 { "type": "Feature", "properties": { "name": "Manuel Olivares", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.309127283400684, 12.151698818413758 ] } },
 { "type": "Feature", "properties": { "name": "Clínica Bethel", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.313224679074622, 12.150727980516759 ] } },
 { "type": "Feature", "properties": { "name": "Rótulo Joyería Garzón", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.314725224925212, 12.155493351116835 ] } },
-{ "type": "Feature", "properties": { "name": "Terminal San Miguel Arcángel", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.313717315176433, 12.157807683006791 ] } }
+{ "type": "Feature", "properties": { "name": "San Miguel Arcángel", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.313717315176433, 12.157807683006791 ] } }
 ]
 }

@@ -27,7 +27,7 @@
 { "type": "Feature", "properties": { "name": "Central Line", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.276137822401267, 12.144917808330833 ] } },
 { "type": "Feature", "properties": { "name": "Plaza Inter", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.273874786537519, 12.145336889685634 ] } },
 { "type": "Feature", "properties": { "name": "El Redentor", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.267135176118416, 12.144169396944424 ] } },
-{ "type": "Feature", "properties": { "name": "Funeraria La Católica y La Auxiliadora", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.261567417987436, 12.144194425991003 ] } },
+{ "type": "Feature", "properties": { "name": "Gancho de Camino", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.261590414858702, 12.14423201346704 ] } },
 { "type": "Feature", "properties": { "name": "Disco Bar Santo Domingo", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.259644124964126, 12.140405704135159 ] } },
 { "type": "Feature", "properties": { "name": "Colegio Cristo Rey", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.258720836515124, 12.136896822402601 ] } },
 { "type": "Feature", "properties": { "name": "Rotonda Cristo Rey", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.258043686453945, 12.134447410432323 ] } },
@@ -52,6 +52,6 @@
 { "type": "Feature", "properties": { "name": "Parque Amistad", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.231982841409405, 12.145388177048378 ] } },
 { "type": "Feature", "properties": { "name": "La Taquiza", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.228596641945927, 12.145052876953526 ] } },
 { "type": "Feature", "properties": { "name": "Peluqueria Leysi", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.227458296817886, 12.148198867495482 ] } },
-{ "type": "Feature", "properties": { "name": "Terminal Santa Rosa", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.225801533939389, 12.148720868415085 ] } }
+{ "type": "Feature", "properties": { "name": "Terminal Santa Rosa", "attributes": { "official_status": "IRTRAMMA:bus_station" } }, "geometry": { "type": "Point", "coordinates": [ -86.225801533939389, 12.148720868415085 ] } }
 ]
 }

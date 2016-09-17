@@ -53,7 +53,7 @@
 { "type": "Feature", "properties": { "name": "Miscelánea La Unión", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.207900625609668, 12.119435685677008 ] } },
 { "type": "Feature", "properties": { "name": "La Sabana", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.205772426870055, 12.119095610139691 ] } },
 { "type": "Feature", "properties": { "name": "Ixchen", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.202756602798232, 12.118008103278319 ] } },
-{ "type": "Feature", "properties": { "name": "Terminal 116", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.203582783365036, 12.113080276788637 ] } },
+{ "type": "Feature", "properties": { "name": "Terminal 116", "attributes": { "official_status": "IRTRAMMA:bus_station" } }, "geometry": { "type": "Point", "coordinates": [ -86.203582783365036, 12.113080276788637 ] } },
 { "type": "Feature", "properties": { "name": "Universidad Paulo Freire", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.304737036944147, 12.145839224388329 ] } }
 ]
 }

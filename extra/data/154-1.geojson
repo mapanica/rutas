@@ -28,7 +28,7 @@
 { "type": "Feature", "properties": { "name": "Central Line", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.276137822401267, 12.144917808330833 ] } },
 { "type": "Feature", "properties": { "name": "Plaza Inter", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.273874786537519, 12.145336889685634 ] } },
 { "type": "Feature", "properties": { "name": "El Redentor", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.267135176118416, 12.144169396944424 ] } },
-{ "type": "Feature", "properties": { "name": "Funeraria La Católica y La Auxiliadora", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.261567417987436, 12.144194425991003 ] } },
+{ "type": "Feature", "properties": { "name": "Gancho de Camino", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.261590414858702, 12.14423201346704 ] } },
 { "type": "Feature", "properties": { "name": "Taller Lacayo", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.259291266720538, 12.143485620046219 ] } },
 { "type": "Feature", "properties": { "name": "Gimnasio Alexis Aruello", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.251942149381151, 12.141494261319282 ] } },
 { "type": "Feature", "properties": { "name": "Cerrajería Tenderí", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.250968285781624, 12.143532867979815 ] } },

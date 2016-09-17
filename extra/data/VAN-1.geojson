@@ -12,7 +12,7 @@
 { "type": "Feature", "properties": { "name": "Ultranic", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.262138566845081, 12.120656423297856 ] } },
 { "type": "Feature", "properties": { "name": "Colegio Teresiano", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.258587526526952, 12.116764078526611 ] } },
 { "type": "Feature", "properties": { "name": "Movistar", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.250395699619546, 12.107786007297397 ] } },
-{ "type": "Feature", "properties": { "name": "Galerías Santo Domingo", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.247548938484158, 12.104632952369117 ] } },
+{ "type": "Feature", "properties": { "name": "Galerías Santo Domingo Este", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.247548938484158, 12.104632952369117 ] } },
 { "type": "Feature", "properties": { "name": "Plaza Familiar", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.244256972293982, 12.100881964832899 ] } },
 { "type": "Feature", "properties": { "name": "Instituto de Desarrollo Rural", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.239429066631004, 12.09563058167163 ] } },
 { "type": "Feature", "properties": { "name": "Tercera entrada a Santo Domingo", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.234266538524707, 12.089965285875062 ] } },

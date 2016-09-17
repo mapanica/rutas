@@ -7,7 +7,7 @@
 { "type": "Feature", "properties": { "name": "Escuela la Libertad", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.197036131068941, 12.110296180606841 ] } },
 { "type": "Feature", "properties": { "name": "Ferretería La Bendición", "attributes": { "official_status": "unset" } }, "geometry": { "type": "Point", "coordinates": [ -86.196948186002643, 12.112165686213739 ] } },
 { "type": "Feature", "properties": { "name": "Pulpería Karolina", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.200534170785303, 12.112498304890607 ] } },
-{ "type": "Feature", "properties": { "name": "Terminal 116", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.203476333003863, 12.113038820335596 ] } },
+{ "type": "Feature", "properties": { "name": "Terminal 116", "attributes": { "official_status": "IRTRAMMA:bus_station" } }, "geometry": { "type": "Point", "coordinates": [ -86.203476333003863, 12.113038820335596 ] } },
 { "type": "Feature", "properties": { "name": "Ixchen", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.202706297142313, 12.118074678288643 ] } },
 { "type": "Feature", "properties": { "name": "La Sabana", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.205802520432087, 12.119201532473877 ] } },
 { "type": "Feature", "properties": { "name": "Pulpería Meydar", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.207070672118689, 12.119390190059466 ] } },
@@ -36,19 +36,19 @@
 { "type": "Feature", "properties": { "name": "Profamilia", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.25153197862241, 12.14513700938998 ] } },
 { "type": "Feature", "properties": { "name": "Semáforos de Ciudad Jardines", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.253635204197138, 12.145380185353805 ] } },
 { "type": "Feature", "properties": { "name": "Boutique Inter Fashion", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.256144108954132, 12.144383065887364 ] } },
-{ "type": "Feature", "properties": { "name": "Policía Nacional Distrito IV", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.260856581103113, 12.145000272212004 ] } },
+{ "type": "Feature", "properties": { "name": "Gancho de Camino", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.260856581103113, 12.145000272212004 ] } },
 { "type": "Feature", "properties": { "name": "Ministerio de Defensa", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.264881123407491, 12.143685677224363 ] } },
 { "type": "Feature", "properties": { "name": "Cruz Azul", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.265541295309802, 12.140224877625824 ] } },
 { "type": "Feature", "properties": { "name": "Colegio Simón Bolívar", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.265851034419754, 12.136862659012932 ] } },
 { "type": "Feature", "properties": { "name": "Costado El Sol", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.265162296091418, 12.133825349300187 ] } },
 { "type": "Feature", "properties": { "name": "Catedral de Managua", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.265120883756836, 12.129621678033317 ] } },
-{ "type": "Feature", "properties": { "name": "UCA", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.271601779374095, 12.126810264622815 ] } },
+{ "type": "Feature", "properties": { "name": "UCA", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.271601779374095, 12.126810264622815 ] } },
 { "type": "Feature", "properties": { "name": "Farmacia San Lorenzo", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.273974948691688, 12.121258665852618 ] } },
 { "type": "Feature", "properties": { "name": "Radio Universidad", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.273226382565454, 12.116854104516971 ] } },
 { "type": "Feature", "properties": { "name": "UNICIT", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.271969819146008, 12.111957173528481 ] } },
 { "type": "Feature", "properties": { "name": "UNAN Oeste", "attributes": { "official_status": "unset" } }, "geometry": { "type": "Point", "coordinates": [ -86.27236921012134, 12.106370307980903 ] } },
 { "type": "Feature", "properties": { "name": "Entrada Miguel Bonilla", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.272972967823776, 12.104281263841875 ] } },
 { "type": "Feature", "properties": { "name": "Pulpería La Rojita", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.273730337439829, 12.102563569667602 ] } },
-{ "type": "Feature", "properties": { "name": "Terminal 111, 168", "attributes": { "official_status": "IRTRAMMA:bus_station" } }, "geometry": { "type": "Point", "coordinates": [ -86.274699080642222, 12.100033384983487 ] } }
+{ "type": "Feature", "properties": { "name": "Terminal Miguel Bonilla", "attributes": { "official_status": "IRTRAMMA:bus_station" } }, "geometry": { "type": "Point", "coordinates": [ -86.274699080642222, 12.100033384983487 ] } }
 ]
 }

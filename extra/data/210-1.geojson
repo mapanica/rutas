@@ -12,7 +12,7 @@
 { "type": "Feature", "properties": { "name": "Los Masayas", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.359406888168124, 12.167077454304172 ] } },
 { "type": "Feature", "properties": { "name": "Vuelta de la Uno", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.358668473004599, 12.167505106471143 ] } },
 { "type": "Feature", "properties": { "name": "Alcaldía de Ciudad Sandino", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.357086000800095, 12.165573026468966 ] } },
-{ "type": "Feature", "properties": { "name": "Palí CIudad Sandino", "attributes": { "official_status": "unset" } }, "geometry": { "type": "Point", "coordinates": [ -86.35565660152001, 12.165778248068575 ] } },
+{ "type": "Feature", "properties": { "name": "Palí CIudad Sandino", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.35565660152001, 12.165778248068575 ] } },
 { "type": "Feature", "properties": { "name": "Iglesia San Francisco", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.354605213311459, 12.166243223250371 ] } },
 { "type": "Feature", "properties": { "name": "Farmacia Nefi", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.353203122815998, 12.166932473916413 ] } },
 { "type": "Feature", "properties": { "name": "El Gallo Más Gallo", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.352096847543621, 12.167482274955999 ] } },
@@ -35,7 +35,7 @@
 { "type": "Feature", "properties": { "name": "Excel Automotriz", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.289585871699117, 12.125866474636489 ] } },
 { "type": "Feature", "properties": { "name": "Rotonda El Periodista", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.284595011643603, 12.125537297890569 ] } },
 { "type": "Feature", "properties": { "name": "ENEL Central", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.276849288106277, 12.124158931724882 ] } },
-{ "type": "Feature", "properties": { "name": "UCA", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.272506742191325, 12.125988203180814 ] } },
+{ "type": "Feature", "properties": { "name": "UCA", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.272506742191325, 12.125988203180814 ] } },
 { "type": "Feature", "properties": { "name": "Rotonda Rubén Darío", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.266690240558177, 12.130592592868352 ] } },
 { "type": "Feature", "properties": { "name": "Serrano", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.266346904456597, 12.134555697927018 ] } }
 ]

@@ -13,13 +13,13 @@
 { "type": "Feature", "properties": { "name": "Plaza España Este", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.28137904292646, 12.133510673463149 ] } },
 { "type": "Feature", "properties": { "name": "Paseo Naciones Unidas", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.28111978913546, 12.1289125698398 ] } },
 { "type": "Feature", "properties": { "name": "ENEL Central", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.276849288106277, 12.124158931724882 ] } },
-{ "type": "Feature", "properties": { "name": "UCA", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.272506742191325, 12.125988203180814 ] } },
+{ "type": "Feature", "properties": { "name": "UCA", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.272506742191325, 12.125988203180814 ] } },
 { "type": "Feature", "properties": { "name": "Rotonda Rubén Darío", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.266690240558177, 12.130592592868352 ] } },
 { "type": "Feature", "properties": { "name": "Serrano", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.266346904456597, 12.134555697927018 ] } },
 { "type": "Feature", "properties": { "name": "Colegio Simón Bolívar", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.265880319498009, 12.137132628713109 ] } },
 { "type": "Feature", "properties": { "name": "Cruz Azul", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.265428916067734, 12.140203712397428 ] } },
 { "type": "Feature", "properties": { "name": "Ministerio de Defensa", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.264758144045089, 12.143658979523588 ] } },
-{ "type": "Feature", "properties": { "name": "Funeraria La Católica y La Auxiliadora", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.261567417987436, 12.144194425991003 ] } },
+{ "type": "Feature", "properties": { "name": "Gancho de Camino", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.261590414858702, 12.14423201346704 ] } },
 { "type": "Feature", "properties": { "name": "Taller Lacayo", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.259291266720538, 12.143485620046219 ] } },
 { "type": "Feature", "properties": { "name": "Autoservicios Mayorga", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.256719030735965, 12.142630062147836 ] } },
 { "type": "Feature", "properties": { "name": "Club de billares", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.256800867258363, 12.140778071111077 ] } },
@@ -50,6 +50,6 @@
 { "type": "Feature", "properties": { "name": "Barber Shop", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.216630004383106, 12.109117116170451 ] } },
 { "type": "Feature", "properties": { "name": "Cementerio Milagro de Dios", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.21296757296976, 12.108811370139968 ] } },
 { "type": "Feature", "properties": { "name": "Entrada Villa Milagro", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.20941590383093, 12.108978164699849 ] } },
-{ "type": "Feature", "properties": { "name": "Terminal 195", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.208945905274291, 12.110502147452268 ] } }
+{ "type": "Feature", "properties": { "name": "Terminal 195", "attributes": { "official_status": "IRTRAMMA:bus_station" } }, "geometry": { "type": "Point", "coordinates": [ -86.208945905274291, 12.110502147452268 ] } }
 ]
 }

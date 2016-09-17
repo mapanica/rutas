@@ -25,6 +25,7 @@
 { "type": "Feature", "properties": { "name": "El Quetzal", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.253970006303518, 12.114642969577202 ] } },
 { "type": "Feature", "properties": { "name": "Policía Distrito V", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.250015263096699, 12.117534700021451 ] } },
 { "type": "Feature", "properties": { "name": "Hospital Roberto Calderón", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.245913465677901, 12.120546197920071 ] } },
-{ "type": "Feature", "properties": { "name": "Mercado Huembes Suroeste", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.244372495639524, 12.123050981538331 ] } }
+{ "type": "Feature", "properties": { "name": "Mercado Huembes Suroeste", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.244372495639524, 12.123050981538331 ] } },
+{ "type": "Feature", "properties": { "name": "Galerías Santo Domingo Norte", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.25015638842784, 12.105307869814407 ] } }
 ]
 }

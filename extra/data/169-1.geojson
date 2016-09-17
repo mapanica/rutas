@@ -39,6 +39,6 @@
 { "type": "Feature", "properties": { "name": "Farmacia Schick", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.233827262350772, 12.111661707085663 ] } },
 { "type": "Feature", "properties": { "name": "Miscelánea Kathin", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.233645263674205, 12.108183276578734 ] } },
 { "type": "Feature", "properties": { "name": "Farmacia Eva", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.233363282506517, 12.105726749916876 ] } },
-{ "type": "Feature", "properties": { "name": "Terminal 169", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.230703370950238, 12.105615200865895 ] } }
+{ "type": "Feature", "properties": { "name": "Terminal 169", "attributes": { "official_status": "IRTRAMMA:bus_station" } }, "geometry": { "type": "Point", "coordinates": [ -86.230703370950238, 12.105615200865895 ] } }
 ]
 }

@@ -25,7 +25,7 @@
 { "type": "Feature", "properties": { "name": "Rotonda Cristo Rey", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.257785780135862, 12.133913700863872 ] } },
 { "type": "Feature", "properties": { "name": "Clínica María Auxiliadora", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.258386124240246, 12.136292770871869 ] } },
 { "type": "Feature", "properties": { "name": "Pulpería María Auxiliadora", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.259074682905521, 12.138777382901706 ] } },
-{ "type": "Feature", "properties": { "name": "Policía Nacional Distrito IV", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.260856581103113, 12.145000272212004 ] } },
+{ "type": "Feature", "properties": { "name": "Gancho de Camino", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.260856581103113, 12.145000272212004 ] } },
 { "type": "Feature", "properties": { "name": "Pollo El Granjero", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.266359750365154, 12.144336959779782 ] } },
 { "type": "Feature", "properties": { "name": "Barrio 19 de Julio", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.26558863652528, 12.147001089308583 ] } },
 { "type": "Feature", "properties": { "name": "El Novillo", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.264938705417208, 12.149379778948585 ] } },

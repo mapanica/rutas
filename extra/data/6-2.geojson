@@ -64,6 +64,6 @@
 { "type": "Feature", "properties": { "name": "Gasolinera Barrio Waspán", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.208578494323078, 12.148807546463285 ] } },
 { "type": "Feature", "properties": { "name": "Entrada Barrio Hugo Chávez", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.202644133724647, 12.148367130353241 ] } },
 { "type": "Feature", "properties": { "name": "Colegio Camilo Zapata", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.199137200686991, 12.153062025159896 ] } },
-{ "type": "Feature", "properties": { "name": "Barrio Camilo Chamorro", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.198801500265304, 12.156866110475542 ] } }
+{ "type": "Feature", "properties": { "name": "Terminal Barrio Camilo Chamorro", "attributes": { "official_status": "IRTRAMMA:bus_station" } }, "geometry": { "type": "Point", "coordinates": [ -86.198839678664868, 12.156868657169417 ] } }
 ]
 }

@@ -28,6 +28,6 @@
 { "type": "Feature", "properties": { "name": "Quinta Nina", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.254457162682101, 12.153488294778779 ] } },
 { "type": "Feature", "properties": { "name": "Planta Eléctrica", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.257178608835332, 12.153649792299003 ] } },
 { "type": "Feature", "properties": { "name": "Llantera Vargas", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.258750031761849, 12.152752904613527 ] } },
-{ "type": "Feature", "properties": { "name": "Terminal 170", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.26050354319645, 12.15194488639812 ] } }
+{ "type": "Feature", "properties": { "name": "Terminal 170", "attributes": { "official_status": "IRTRAMMA:bus_station" } }, "geometry": { "type": "Point", "coordinates": [ -86.26050354319645, 12.15194488639812 ] } }
 ]
 }

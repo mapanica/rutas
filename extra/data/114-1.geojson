@@ -28,7 +28,7 @@
 { "type": "Feature", "properties": { "name": "Bypass", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.254727286088041, 12.135068064924813 ] } },
 { "type": "Feature", "properties": { "name": "Plaza El Sol", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.261493576471068, 12.131039273982861 ] } },
 { "type": "Feature", "properties": { "name": "Catedral de Managua", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.265120883756836, 12.129621678033317 ] } },
-{ "type": "Feature", "properties": { "name": "UCA", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.271601779374095, 12.126810264622815 ] } },
+{ "type": "Feature", "properties": { "name": "UCA", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.271601779374095, 12.126810264622815 ] } },
 { "type": "Feature", "properties": { "name": "ENEL Central", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.276817038587581, 12.124383156042146 ] } },
 { "type": "Feature", "properties": { "name": "Rotonda El Periodista", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.284594113328325, 12.125743165145323 ] } },
 { "type": "Feature", "properties": { "name": "Julio Martínez", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.288232110565957, 12.126064876326316 ] } },

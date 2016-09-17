@@ -18,7 +18,7 @@
 { "type": "Feature", "properties": { "name": "Plaza España Este", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.28137904292646, 12.133510673463149 ] } },
 { "type": "Feature", "properties": { "name": "Paseo Naciones Unidas", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.28111978913546, 12.1289125698398 ] } },
 { "type": "Feature", "properties": { "name": "ENEL Central", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.276849288106277, 12.124158931724882 ] } },
-{ "type": "Feature", "properties": { "name": "UCA", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.272506742191325, 12.125988203180814 ] } },
+{ "type": "Feature", "properties": { "name": "UCA", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.272506742191325, 12.125988203180814 ] } },
 { "type": "Feature", "properties": { "name": "Metrocentro", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.265892895911989, 12.127416884619512 ] } },
 { "type": "Feature", "properties": { "name": "Ministerio Público", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.265071476416196, 12.124907487141067 ] } },
 { "type": "Feature", "properties": { "name": "Ultranic", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.262138566845081, 12.120656423297856 ] } },
@@ -44,6 +44,6 @@
 { "type": "Feature", "properties": { "name": "Semaforos San Jacinto", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.213977638675217, 12.140134069123635 ] } },
 { "type": "Feature", "properties": { "name": "Puente San Jacinto", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.211098628021148, 12.139532220502108 ] } },
 { "type": "Feature", "properties": { "name": "Entrada Villa Fraternidad", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.209075172843654, 12.139097761006637 ] } },
-{ "type": "Feature", "properties": { "name": "Terminal 119", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.209228964420319, 12.136875393438894 ] } }
+{ "type": "Feature", "properties": { "name": "Terminal 119", "attributes": { "official_status": "IRTRAMMA:bus_station" } }, "geometry": { "type": "Point", "coordinates": [ -86.209228964420319, 12.136875393438894 ] } }
 ]
 }

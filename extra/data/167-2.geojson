@@ -40,7 +40,7 @@
 { "type": "Feature", "properties": { "name": "Colegio Inmaculada Concepción", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.209618833253614, 12.127306310728468 ] } },
 { "type": "Feature", "properties": { "name": "El Madroño", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.207593401782503, 12.126930587505871 ] } },
 { "type": "Feature", "properties": { "name": "Colegio San Ignacio de Loyola", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.203787239923685, 12.125519908072521 ] } },
-{ "type": "Feature", "properties": { "name": "", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.200656790821611, 12.124318514816867 ] } },
+{ "type": "Feature", "properties": { "name": "Andrés Castro", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.200656790821611, 12.124318514816867 ] } },
 { "type": "Feature", "properties": { "name": "Entrada Sur a Laureles Norte", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.198668100445616, 12.123842927059552 ] } },
 { "type": "Feature", "properties": { "name": "Manuel Fernández", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.195028935398113, 12.122951823504943 ] } },
 { "type": "Feature", "properties": { "name": "Omar Tellez Sánchez", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.196058494545241, 12.117722831805896 ] } },
@@ -48,6 +48,6 @@
 { "type": "Feature", "properties": { "name": "Los Mangos", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.192233198570875, 12.112945016303703 ] } },
 { "type": "Feature", "properties": { "name": "Barrio Israel Gaelano", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.191176689965232, 12.112939307255758 ] } },
 { "type": "Feature", "properties": { "name": "Los Laureles Sur", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.189027740142564, 12.118301191293046 ] } },
-{ "type": "Feature", "properties": { "name": "Terminal 167", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.191647407174102, 12.116992612737471 ] } }
+{ "type": "Feature", "properties": { "name": "Terminal 167", "attributes": { "official_status": "IRTRAMMA:bus_station" } }, "geometry": { "type": "Point", "coordinates": [ -86.191647407174102, 12.116992612737471 ] } }
 ]
 }

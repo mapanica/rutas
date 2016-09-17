@@ -11,7 +11,7 @@
 { "type": "Feature", "properties": { "name": "Calle del Barrio Nuevo", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.34557777352677, 12.135654115306963 ] } },
 { "type": "Feature", "properties": { "name": "Vuela Rey de Reyes", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.345806394766555, 12.1366116589617 ] } },
 { "type": "Feature", "properties": { "name": "Blanca 2", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.347532777079607, 12.138890059784627 ] } },
-{ "type": "Feature", "properties": { "name": "Terminal 125", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.347506725936356, 12.139980994373367 ] } },
+{ "type": "Feature", "properties": { "name": "Terminal 125", "attributes": { "official_status": "IRTRAMMA:bus_station" } }, "geometry": { "type": "Point", "coordinates": [ -86.347506725936356, 12.139980994373367 ] } },
 { "type": "Feature", "properties": { "name": "Calle 12", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.347605181291485, 12.141257317181545 ] } },
 { "type": "Feature", "properties": { "name": "Calle 10", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.347962081953867, 12.142333751473176 ] } },
 { "type": "Feature", "properties": { "name": "Calle 8", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.34832661829617, 12.143402892231526 ] } },
@@ -33,7 +33,7 @@
 { "type": "Feature", "properties": { "name": "El Gallo Más Gallo", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.35187837726653, 12.167729557723211 ] } },
 { "type": "Feature", "properties": { "name": "Farmacia Nefi", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.353363202599638, 12.167000880783974 ] } },
 { "type": "Feature", "properties": { "name": "Iglesia San Francisco", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.35469657197585, 12.166354220038475 ] } },
-{ "type": "Feature", "properties": { "name": "Palí CIudad Sandino", "attributes": { "official_status": "unset" } }, "geometry": { "type": "Point", "coordinates": [ -86.355958165960871, 12.165812232117922 ] } },
+{ "type": "Feature", "properties": { "name": "Palí CIudad Sandino", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.355958165960871, 12.165812232117922 ] } },
 { "type": "Feature", "properties": { "name": "Alcaldía de Ciudad Sandino", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.357500213977588, 12.165637218608079 ] } },
 { "type": "Feature", "properties": { "name": "Mercadito de Ciudad Sandino", "attributes": { "official_status": "IRTRAMMA:bus_station" } }, "geometry": { "type": "Point", "coordinates": [ -86.357793424086324, 12.165328288307951 ] } }
 ]

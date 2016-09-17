@@ -25,6 +25,7 @@
 { "type": "Feature", "properties": { "name": "La Ermita", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.212381781572972, 12.075977077132071 ] } },
 { "type": "Feature", "properties": { "name": "FUTEC", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.209678750883057, 12.075034600952163 ] } },
 { "type": "Feature", "properties": { "name": "Vistas de Esquipulas", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.198524639494721, 12.074190419173917 ] } },
-{ "type": "Feature", "properties": { "name": "Colegio Pablo Antonio Cuadra", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.196867876616238, 12.073987323223133 ] } }
+{ "type": "Feature", "properties": { "name": "Colegio Pablo Antonio Cuadra", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.196867876616238, 12.073987323223133 ] } },
+{ "type": "Feature", "properties": { "name": "Galerías Santo Domingo Norte", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.250311707140469, 12.1055813848058 ] } }
 ]
 }

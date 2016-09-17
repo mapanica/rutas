@@ -20,7 +20,7 @@
 { "type": "Feature", "properties": { "name": "Semáforos Villa Progreso", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.227069236468324, 12.138358818163232 ] } },
 { "type": "Feature", "properties": { "name": "Cooperativa Parrales Vallejos", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.228950847662446, 12.136198184603833 ] } },
 { "type": "Feature", "properties": { "name": "Paso a desnivel Rubenia", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.230653424620442, 12.13201369666365 ] } },
-{ "type": "Feature", "properties": { "name": "Semáforos Nicarao", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.234775074807047, 12.128326680287193 ] } },
+{ "type": "Feature", "properties": { "name": "Semáforos Nicarao", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.233593430882308, 12.128669817976313 ] } },
 { "type": "Feature", "properties": { "name": "Ferretería Jenny", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.239103966329694, 12.126376223523383 ] } },
 { "type": "Feature", "properties": { "name": "Mercado Huembes Sureste", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.242264598825329, 12.123871998099162 ] } },
 { "type": "Feature", "properties": { "name": "Hospital Roberto Calderón", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.245489730358372, 12.121181288695142 ] } },
@@ -32,7 +32,7 @@
 { "type": "Feature", "properties": { "name": "Rotonda Cristo Rey", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.257785780135862, 12.133913700863872 ] } },
 { "type": "Feature", "properties": { "name": "Clínica María Auxiliadora", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.258386124240246, 12.136292770871869 ] } },
 { "type": "Feature", "properties": { "name": "Pulpería María Auxiliadora", "attributes": { "official_status": "none" } }, "geometry": { "type": "Point", "coordinates": [ -86.259074682905521, 12.138777382901706 ] } },
-{ "type": "Feature", "properties": { "name": "Policía Nacional Distrito IV", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.260856581103113, 12.145000272212004 ] } },
+{ "type": "Feature", "properties": { "name": "Gancho de Camino", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.260856581103113, 12.145000272212004 ] } },
 { "type": "Feature", "properties": { "name": "El Redentor", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.266723388392165, 12.144218401180773 ] } },
 { "type": "Feature", "properties": { "name": "Mirador Tiscapa", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.267858769079751, 12.14024911664052 ] } },
 { "type": "Feature", "properties": { "name": "Mabale", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.276801318070113, 12.136117211003224 ] } },
@@ -46,6 +46,6 @@
 { "type": "Feature", "properties": { "name": "Pulpería La Pista", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.283664716335366, 12.108870920816273 ] } },
 { "type": "Feature", "properties": { "name": "Benito Juárez", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.282737475299115, 12.112452808090511 ] } },
 { "type": "Feature", "properties": { "name": "Rosa de Saron", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.282928007970867, 12.114905056995301 ] } },
-{ "type": "Feature", "properties": { "name": "Terminal 104", "attributes": { "official_status": "IRTRAMMA:bus_stop" } }, "geometry": { "type": "Point", "coordinates": [ -86.282858208873293, 12.116524126177636 ] } }
+{ "type": "Feature", "properties": { "name": "Terminal 104", "attributes": { "official_status": "IRTRAMMA:bus_station" } }, "geometry": { "type": "Point", "coordinates": [ -86.282858208873293, 12.116524126177636 ] } }
 ]
 }
