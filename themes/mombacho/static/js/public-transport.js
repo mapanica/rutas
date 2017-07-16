@@ -4,23 +4,23 @@ var scrolled=0;
 
 function load_map(url_params) {
 
-  var humanitarian = L.tileLayer('http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
-    attribution: 'Geo datos © <a href="http://openstreetmap.org">OpenStreetMap</a>'
+  var humanitarian = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
+    attribution: 'Geo datos © <a href="https://openstreetmap.org">OpenStreetMap</a>'
   });
-  var osm = L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '© Colaboradores de <a href="http://openstreetmap.org">OpenStreetMap</a>'
-  });http:
-  var pub_transport = L.tileLayer('http://tile.memomaps.de/tilegen/{z}/{x}/{y}.png', {
-    attribution: 'Geo datos © <a href="http://openstreetmap.org">OpenStreetMap</a>; Teselas © <a href="http://memomaps.de/">MeMoMaps</a>'
+  var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© Colaboradores de <a href="https://openstreetmap.org">OpenStreetMap</a>'
   });
-  var new_transport = L.tileLayer('http://{s}.tile.thunderforest.com/transport/{z}/{x}/{y}.png?apikey=760b39ce3c124042844d03e0f935bae9', {
-    attribution: 'Geo datos © <a href="http://openstreetmap.org">OpenStreetMap</a>; Teselas © <a href="http://thunderforest.com/">Gravitystorm</a>'
+  var pub_transport = L.tileLayer('https://tile.memomaps.de/tilegen/{z}/{x}/{y}.png', {
+    attribution: 'Geo datos © <a href="https://openstreetmap.org">OpenStreetMap</a>; Teselas © <a href="https://memomaps.de/">MeMoMaps</a>'
   });
-  var mapbox = L.tileLayer('http://{s}.tiles.mapbox.com/v3/jaakkoh.map-4ch3dsvl/{z}/{x}/{y}.png', {
-    attribution: 'Geo datos © <a href="http://openstreetmap.org">OpenStreetMap</a>; Teselas © <a href="http://mapbox.com/">Mapbox</a>'
+  var new_transport = L.tileLayer('https://{s}.tile.thunderforest.com/transport/{z}/{x}/{y}.png?apikey=760b39ce3c124042844d03e0f935bae9', {
+    attribution: 'Geo datos © <a href="https://openstreetmap.org">OpenStreetMap</a>; Teselas © <a href="https://thunderforest.com/">Gravitystorm</a>'
   });
-  var osmsweden = L.tileLayer('http://{s}.tile.openstreetmap.se/hydda/full/{z}/{x}/{y}.png', {
-    attribution: 'Geo datos © <a href="http://openstreetmap.org">OpenStreetMap</a>; Teselas © <a href="http://http://openstreetmap.se/">OSM Suecia</a>'
+  var mapbox = L.tileLayer('https://{s}.tiles.mapbox.com/v3/jaakkoh.map-4ch3dsvl/{z}/{x}/{y}.png', {
+    attribution: 'Geo datos © <a href="https://openstreetmap.org">OpenStreetMap</a>; Teselas © <a href="https://mapbox.com/">Mapbox</a>'
+  });
+  var osmsweden = L.tileLayer('https://{s}.tile.openstreetmap.se/hydda/full/{z}/{x}/{y}.png', {
+    attribution: 'Geo datos © <a href="https://openstreetmap.org">OpenStreetMap</a>; Teselas © <a href="https://https://openstreetmap.se/">OSM Suecia</a>'
   });
 
 
