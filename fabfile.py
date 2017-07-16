@@ -13,10 +13,6 @@ env.deploy_path = 'output'
 DEPLOY_PATH = env.deploy_path
 theme_path = 'themes/mombacho'
 
-# Remote server configuration
-production = 'dione:54922'
-dest_path = '/var/www/sites/rutas.mapanica.net'
-
 # Port for `serve`
 PORT = 8000
 
