@@ -10,7 +10,7 @@ SITEDESCRIPTION = 'Mapa de la red de las rutas de buses del transporte urbano co
 SITEKEYWORDS = 'Bus, Buses, Rutas, Ruta, IRTRAMMA, TUC, Transporte, Transporte Urbano Colectivo, Nicaragua, Managua, CpenStreetMap, Transporte público, Datos Abuertos, Open Data'
 
 USE_LESS = True
-SITEURL = 'http://localhost:8000'
+SITEURL = 'https://rutas.mapanica.net'
 SITELOGO = '/images/mapanica-rutas.png'
 THEME = 'themes/mombacho'
 
