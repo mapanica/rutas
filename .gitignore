@@ -4,3 +4,4 @@ _site/
 output/*
 *.py[cod]
 cache/
+pelican.pid
