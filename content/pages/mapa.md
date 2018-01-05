@@ -6,7 +6,7 @@ Summary: MapaNica, el capítulo de [OpenStreetMap](http://openstreetmap.org/) en
 
 <div>
 El mapa ha sido un trabajo colectivo de más de 150 personas que aman a sus ciudades de Managua y Ciudad Sandino.<br />
-Lo queremos compartir contigo. Descarga y lleváte tu mapa:
+Lo queremos compartir contigo. Descarga y llevate tu mapa:
 <ul>
 <li><a href="/archivos/mapanica-rutas-managua.pdf">PDF</a></li>
 <li><a href="/archivos/mapanica-rutas-managua.jpg">JPG</a></li>
