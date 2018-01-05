@@ -7,7 +7,7 @@ AUTHOR = u'OpenStreetMap Nicaragua'
 SITENAME = u'MapaNica.net - Rutas de Managua y Ciudad Sandino'
 SITESUBTITLE = 'Transporte Urbano Colectivo de Managua'
 SITEDESCRIPTION = 'Mapa de la red de las rutas de buses del transporte urbano colectivo (TUC) de Managua y Ciudad Sandino'
-SITEKEYWORDS = 'Bus, Buses, Rutas, Ruta, IRTRAMMA, TUC, Transporte, Transporte Urbano Colectivo, Nicaragua, Managua, CpenStreetMap, Transporte público, Datos Abuertos, Open Data'
+SITEKEYWORDS = 'Bus, Buses, Rutas, Ruta, IRTRAMMA, TUC, Transporte, Transporte Urbano Colectivo, Nicaragua, Managua, OpenStreetMap, Transporte público, Datos Abuertos, Open Data'
 
 USE_LESS = True
 SITEURL = 'https://rutas.mapanica.net'
