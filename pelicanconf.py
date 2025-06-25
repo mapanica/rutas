@@ -47,15 +47,12 @@ AUTHOR_FEED_RSS = None
 
 # Social widget
 SOCIAL = (('email', 'mailto:contacto@mapanica.net'),
-          ('facebook', 'http://www.facebook.com/mapanica'),
-          ('twitter', 'http://www.twitter.com/osm_ni'),
           )
 
 MENUITEMS = (('Mapa de Nicaragua', 'http://mapanica.net', 'map'),
              ('Rutas Managua', '/index.html', 'public-transport'),
              ('Mapas para móviles', 'http://mapanica.net/mapas-moviles.html', 'mobile'),
              ('Comunidad', 'http://mapanica.net/comunidad.html', 'community'),
-             ('Descargar datos', 'http://datos.mapanica.net', 'datos'),
           )
 
 DEFAULT_PAGINATION = False
