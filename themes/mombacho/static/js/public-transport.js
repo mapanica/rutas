@@ -4,34 +4,12 @@ var scrolled=0;
 
 function load_map(url_params) {
 
-  var humanitarian = L.tileLayer('https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png', {
-    attribution: 'Geo datos © <a href="https://openstreetmap.org">OpenStreetMap</a>'
-  });
-  var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '© Colaboradores de <a href="https://openstreetmap.org">OpenStreetMap</a>'
-  });
-  var pub_transport = L.tileLayer('https://tile.memomaps.de/tilegen/{z}/{x}/{y}.png', {
+  var transport = L.tileLayer('https://tileserver.memomaps.de/tilegen/{z}/{x}/{y}.png?apikey=760b39ce3c124042844d03e0f935bae9', {
     attribution: 'Geo datos © <a href="https://openstreetmap.org">OpenStreetMap</a>; Teselas © <a href="https://memomaps.de/">MeMoMaps</a>'
   });
-  var new_transport = L.tileLayer('https://{s}.tile.thunderforest.com/transport/{z}/{x}/{y}.png?apikey=760b39ce3c124042844d03e0f935bae9', {
-    attribution: 'Geo datos © <a href="https://openstreetmap.org">OpenStreetMap</a>; Teselas © <a href="https://thunderforest.com/">Gravitystorm</a>'
-  });
-  var mapbox = L.tileLayer('https://{s}.tiles.mapbox.com/v3/jaakkoh.map-4ch3dsvl/{z}/{x}/{y}.png', {
-    attribution: 'Geo datos © <a href="https://openstreetmap.org">OpenStreetMap</a>; Teselas © <a href="https://mapbox.com/">Mapbox</a>'
-  });
-  var osmsweden = L.tileLayer('https://{s}.tile.openstreetmap.se/hydda/full/{z}/{x}/{y}.png', {
-    attribution: 'Geo datos © <a href="https://openstreetmap.org">OpenStreetMap</a>; Teselas © <a href="https://https://openstreetmap.se/">OSM Suecia</a>'
-  });
-
-
-
 
   var baseLayers = {
-    "Transporte público": pub_transport,
-    "Humanitarian": humanitarian,
-    "OpenStreetMap": osm,
-    "Mapbox": mapbox,
-    "OSM Sweden": osmsweden,
+    "Transporte público": transport,
   };
 
   // Initialize map
@@ -39,7 +17,7 @@ function load_map(url_params) {
     center: [12.125,-86.25],
     zoom: 13,
     attributionControl: false,
-    layers: baseLayers[url_params.layers] || new_transport
+    layers: baseLayers[url_params.layers] || transport
   });
 
   // Adding hash for position in url
