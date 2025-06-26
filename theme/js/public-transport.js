@@ -10,8 +10,6 @@ function load_map(url_params) {
 
   var baseLayers = {
     "Transporte público": transport,
-    "Humanitarian": humanitarian,
-    "OpenStreetMap": osm,
   };
 
   // Initialize map
