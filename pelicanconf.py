@@ -49,10 +49,9 @@ AUTHOR_FEED_RSS = None
 SOCIAL = (('email', 'mailto:contacto@mapanica.net'),
           )
 
-MENUITEMS = (('Mapa de Nicaragua', 'http://mapanica.net', 'map'),
+MENUITEMS = (('Mapa de Nicaragua', 'https://www.mapanica.net', 'map'),
              ('Rutas Managua', '/index.html', 'public-transport'),
-             ('Mapas para móviles', 'http://mapanica.net/mapas-moviles.html', 'mobile'),
-             ('Comunidad', 'http://mapanica.net/comunidad.html', 'community'),
+             ('Comunidad', 'https://www.mapanica.net/comunidad.html', 'community'),
           )
 
 DEFAULT_PAGINATION = False
