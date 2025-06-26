@@ -168,12 +168,36 @@
           <center>¡Descarga y llevate tu mapa!</center>
         </a>
       </div>
+<!-- SEARCH FORM -->
+<div id="searchlink">
+  <span class="fa fa-search"></span>
+</div>
 
+<div id="searchform">
+  <form>
+    <input type="text" name="search-string" value="" id="search-string" placeholder="Buscar" >
+    <span class="button">
+      <button type="submit" class="btn" id="search"><span class="fa fa-search"></span></button>
+    </span>
+  </form>
+</div><ul class="social">
+</ul>
   </main>
   <!-- <footer></footer> -->
 
   <script src="/theme/js/public-transport.js"></script>
-  <script type="application/ld+json">
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://stats.delattre.de/" : "http://stats.delattre.de/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 5);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://stats.delattre.de/piwik.php?idsite=5" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->  <script type="application/ld+json">
     {
       "@context" : "http://schema.org",
       "@type" : "Blog",
