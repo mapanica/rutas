@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+
+  <meta name="author" content="OpenStreetMap Nicaragua" />
+  <meta name="description" content="Mapa de la red de las rutas de buses del transporte urbano colectivo (TUC) de Managua y Ciudad Sandino" />
+  <meta name="keywords" content="Bus, Buses, Rutas, Ruta, IRTRAMMA, TUC, Transporte, Transporte Urbano Colectivo, Nicaragua, Managua, CpenStreetMap, Transporte público, Datos Abuertos, Open Data" />
+  <meta name="Content-Language" content="es" />
+  <meta property="og:site_name" content="MapaNica.net - Rutas de Managua y Ciudad Sandino"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="MapaNica.net - Rutas de Managua y Ciudad Sandino"/>
+  <meta property="og:description" content="Mapa de la red de las rutas de buses del transporte urbano colectivo (TUC) de Managua y Ciudad Sandino"/>
+  <meta property="og:locale" content="es_NI"/>
+  <meta property="og:url" content="https://rutas.mapanica.net"/>
+  <meta property="og:image" content="/images/mapanica-rutas.png">
+
+  <title>MapaNica.net - Rutas de Managua y Ciudad Sandino</title>
+
+  <script src="/theme/js/jquery.js"></script>
+  <script src="/theme/js/leaflet.js"></script>
+  <script src="/theme/js/leaflet/leaflet-hash.js"></script>
+  <script src="/theme/js/leaflet/ActiveLayers.js"></script>
+  <script src="/theme/js/leaflet/leaflet.ajax.js"></script>
+  <script src="/theme/js/leaflet/leaflet.label.js"></script>
+  <script src="/theme/js/modal.js"></script>
+  <script src="/theme/js/search.js"></script>
+  <script src="/theme/js/report-form.js"></script>
+
+
+  <link rel="stylesheet" href="/theme/css/leaflet.css" type="text/css" />
+  <!--[if lte IE 8]>
+      <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5.1/leaflet.ie.css" />
+  <![endif]-->
+  <link rel="stylesheet" href="/theme/js/leaflet/zoomslider/L.Control.Zoomslider.css" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="https://rutas.mapanica.net/theme/css/fonts.css">
+  <link rel="stylesheet" type="text/css" href="https://rutas.mapanica.net/theme/css/pygments.min.css">
+  <link rel="stylesheet" type="text/css" href="https://rutas.mapanica.net/theme/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/theme/css/leaflet.label.css" type="text/css" />
+
+
+  <link rel="stylesheet" type="text/css" href="https://rutas.mapanica.net/theme/css/style.min.css">
+
+  <link rel="shortcut icon" href="https://rutas.mapanica.net/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="https://rutas.mapanica.net/images/favicon.ico" type="image/x-icon">
+
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+
+      <!-- BRANDING -->
+      <div class="branding">
+        <img class="site-logo" src="/images/mapanica-rutas.png" />
+        <h1 class="site-title"><span class="subdomain">rutas</span>.mapanica<span>.net</span>
+        <h3 class="site-subtitle">Transporte Urbano Colectivo de Managua</h3>
+      </div>
+
+<nav>
+  <ul id="main-menu">
+      <li class="menu-item link-map"><a  href="http://mapanica.net"><span>Mapa de Nicaragua</span></a></li>
+      <li class="menu-item link-public-transport"><a class="active" href="/index.html"><span>Rutas Managua</span></a></li>
+      <li class="menu-item link-mobile"><a  href="http://mapanica.net/mapas-moviles.html"><span>Mapas para móviles</span></a></li>
+      <li class="menu-item link-community"><a  href="http://mapanica.net/comunidad.html"><span>Comunidad</span></a></li>
+  </ul>
+</nav>
+  </header>  <div class="info-wrapper">
+    <div class="info-box">
+      <div class="info-header">
+        <h3 class="ref"></h3>
+        <div class="destination">
+          <span class="from"></span><br />
+          <span class="to"></span>
+        </div>
+        <span id="info-expander" class="fa fa-chevron-down"></span>
+      </div>
+
+      <div class="official">
+        <span class="operator"></span><br />
+      </div>
+      <div class="stop-overview">
+        <br /><br />
+        <i>Éste mapa es un trabajo colectivo en proceso. Y vos podés apoyar. Si ves una parada que se llama diferente, falta o no tenemos el nombre, avisanos haciendo click en el <span class="fa fa-envelope"></span> abajo.</i>
+        <div class="variant-one">
+          <h4></h4>
+          <ul></ul>
+        </div>
+        <div class="variant-two">
+          <h4></h4>
+          <ul></ul>
+        </div>
+        <div class="stop-legend">
+          <h4>Leyenda</h4>
+          <ul>
+            <li class="stop-official"> Parada oficial (con rótulo)</li>
+            <li class="stop-popular"> Parada popular</li>
+            <li class="stop-unknown"> Estado de parada desconocido</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <main id="map-wrapper">
+    <!-- MAP -->
+     <div id="map">
+     </div>
+
+     <!-- <div id="bus-lines-toggle">></div>  -->
+     <div id="bus-lines-wrapper">
+       <div class="bus-lines-control" id="bus-lines-control-top"><img src="/images/scroller-up.png" /></div>
+       <div id="bus-lines">
+         <a href="?ruta=6" class="bus-line-link lines-northern ruta-6">6</a>
+         <a href="?ruta=101" class="bus-line-link lines-northern ruta-101">101</a>
+         <a href="?ruta=102" class="bus-line-link lines-principal ruta-102">102</a>
+         <a href="?ruta=103" class="bus-line-link lines-principal ruta-103">103</a>
+         <a href="?ruta=104" class="bus-line-link lines-eastern ruta-104">104</a>
+         <a href="?ruta=105" class="bus-line-link lines-principal ruta-105">105</a>
+         <a href="?ruta=106" class="bus-line-link lines-southern ruta-106">106</a>
+         <a href="?ruta=107" class="bus-line-link lines-western ruta-107">107</a>
+         <a href="?ruta=108" class="bus-line-link lines-eastern ruta-108">108</a>
+         <a href="?ruta=109" class="bus-line-link lines-northern ruta-109">109</a>
+         <a href="?ruta=110" class="bus-line-link lines-principal ruta-110">110</a>
+         <a href="?ruta=111" class="bus-line-link lines-principal ruta-111">111</a>
+         <a href="?ruta=112" class="bus-line-link lines-northern ruta-112">112</a>
+         <a href="?ruta=113" class="bus-line-link lines-western ruta-113">113</a>
+         <a href="?ruta=114" class="bus-line-link lines-principal ruta-114">114</a>
+         <a href="?ruta=115" class="bus-line-link lines-western ruta-115">115</a>
+         <a href="?ruta=116" class="bus-line-link lines-central ruta-116">116</a>
+         <a href="?ruta=117" class="bus-line-link lines-principal ruta-117">117</a>
+         <a href="?ruta=118" class="bus-line-link lines-central ruta-118">118</a>
+         <a href="?ruta=119" class="bus-line-link lines-principal ruta-119">119</a>
+         <a href="?ruta=120" class="bus-line-link lines-principal ruta-120">120</a>
+         <a href="?ruta=123" class="bus-line-link lines-northern ruta-123">123</a>
+         <a href="?ruta=125" class="bus-line-link lines-western ruta-125">125</a>
+         <a href="?ruta=133" class="bus-line-link lines-western ruta-133">133</a>
+         <a href="?ruta=125 (CS)" class="bus-line-link bus-line-link-double lines-ciudadsandino ruta-125CS">125 (CS)</a>
+         <a href="?ruta=154" class="bus-line-link lines-western ruta-154">154</a>
+         <a href="?ruta=158" class="bus-line-link lines-western ruta-158">158</a>
+         <a href="?ruta=159" class="bus-line-link lines-eastern ruta-159">159</a>
+         <a href="?ruta=163" class="bus-line-link lines-eastern ruta-163">163</a>
+         <a href="?ruta=164" class="bus-line-link lines-southern ruta-164">164</a>
+         <a href="?ruta=165" class="bus-line-link lines-southern ruta-165">165</a>
+         <a href="?ruta=167" class="bus-line-link lines-eastern ruta-167">167</a>
+         <a href="?ruta=168" class="bus-line-link lines-principal ruta-168">168</a>
+         <a href="?ruta=169" class="bus-line-link lines-eastern ruta-169">169</a>
+         <a href="?ruta=170" class="bus-line-link lines-northern ruta-170">170</a>
+         <a href="?ruta=172" class="bus-line-link lines-western ruta-172">172</a>
+         <a href="?ruta=175" class="bus-line-link lines-central ruta-175">175</a>
+         <a href="?ruta=195" class="bus-line-link lines-principal ruta-195">195</a>
+         <a href="?ruta=210" class="bus-line-link lines-western ruta-210">210</a>
+         <a href="?ruta=262" class="bus-line-link lines-southern ruta-262">262</a>
+         <a href="?ruta=266" class="bus-line-link lines-eastern ruta-266">266</a>
+         <a href="?ruta=MR4" class="bus-line-link bus-line-link-double lines-central ruta-MR4">MR4</a>
+         <a href="?ruta=VAN" class="bus-line-link bus-line-link-double lines-southern ruta-VAN">VAN</a>
+         <a href="?ruta=ESQ" class="bus-line-link bus-line-link-double lines-southern ruta-ESQ">ESQ</a>
+         <a href="?ruta=SIS" class="bus-line-link bus-line-link-double lines-southern ruta-SIS">SIS</a>
+       </div>
+       <div class="bus-lines-control" id="bus-lines-control-bottom"><img src="/images/scroller-down.png" /></div>
+     </div>
+
+      <div class="download-map">
+        <a href="/mapa">
+          <img src="/images/mapanica_bus_map_small.jpg" />
+          <center>¡Descarga y lleváte tu mapa!</center>
+        </a>
+      </div>
+<!-- SEARCH FORM -->
+<div id="report">
+  <span class="fa fa-envelope"></span>
+</div><!-- SEARCH FORM -->
+<div id="searchlink">
+  <span class="fa fa-search"></span>
+</div>
+
+<div id="searchform">
+  <form>
+    <input type="text" name="search-string" value="" id="search-string" placeholder="Buscar" >
+    <span class="button">
+      <button type="submit" class="btn" id="search"><span class="fa fa-search"></span></button>
+    </span>
+  </form>
+</div><ul class="social">
+  <li><a class="social-email" href="mailto:contacto@mapanica.net"></a></li>
+</ul>
+  </main>
+  <!-- <footer></footer> -->
+
+  <script src="/theme/js/public-transport.js"></script>
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://stats.delattre.de/" : "http://stats.delattre.de/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 5);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://stats.delattre.de/piwik.php?idsite=5" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tracking Code -->  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Blog",
+      "name": " MapaNica.net - Rutas de Managua y Ciudad Sandino ",
+      "url" : "https://rutas.mapanica.net",
+      "image": "/images/mapanica-rutas.png",
+      "description": "Mapa de la red de las rutas de buses del transporte urbano colectivo (TUC) de Managua y Ciudad Sandino"
+    }
+  </script>
+</body>
+</html>

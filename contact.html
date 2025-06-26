@@ -1,0 +1,15 @@
+<h3>¡Mándanos tu sugerencia!</h3>
+<p>Éste mapa es un trabajo colectivo. Y vos podés apoyar.</p>
+<p>Si ves un error o tienes alguna sugerencia, informanos y lo corregirémos pronto.</p>
+<p>Tenés selecionado <strong><span id="route-number-text"></span></strong></p>
+<form method="post" id="report-form" action="https://rutas.mapanica.net/php/submit.php">
+  <div class="form-element"><input type="text" class="" name="name" placeholder="Nombre" /></div>
+  <div class="form-element"><input type="email" class="" name="email" placeholder="Correo" /></div>
+  <div class="form-element"><input type="text" class="" name="phone" placeholder="Teléfono" /></div>
+  <p class="antispam"> Leave this empty: <br /> <input name="url" /></p>
+  <input type="hidden" id="route-number" name="ruta" value="no definido" />
+  <div class="form-element">
+    <textarea style="width:100%" class="" rows="10" name="message" placeholder="Mensaje"></textarea>
+  </div>
+  <div class="form-element"><button type="submit" class="btn btn-primary">Enviar</button></div>
+</form>
